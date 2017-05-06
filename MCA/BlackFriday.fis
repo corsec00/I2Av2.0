@@ -1,0 +1,80 @@
+[System]
+Name='BlackFriday'
+Type='mandani'
+Version=2.0
+NumInputs=6
+NumOutputs=1
+NumRules=0
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='BROWSER'
+Range=[0 1]
+NumMFs=8
+MF1='ANDROIDBROW':'trimf',[-0.1429 -4.337e-18 0.1429]
+MF2='CHROME':'trimf',[0 0.1429 0.2857]
+MF3='FIREFOX':'trimf',[0.1429 0.2857 0.4286]
+MF4='IE':'trimf',[0.2857 0.4286 0.5714]
+MF5='OFFICE':'trimf',[0.4286 0.5714 0.7143]
+MF6='OUTROS':'trimf',[0.5714 0.7143 0.8571]
+MF7='SAFARI':'trimf',[0.7143 0.8571 1]
+MF8='THUNDERBIRD':'trimf',[0.8571 1 1.143]
+
+
+[Input2]
+Name='USERAGENT'
+Range=[0 1]
+NumMFs=5
+MF1='ANDROID':'trimf',[-0.25 0 0.25]
+MF2='LINUX':'trimf',[0 0.25 0.5]
+MF3='MACOS':'trimf',[0.25 0.5 0.75]
+MF4='OUTROS':'trimf',[0.5 0.75 1]
+MF5='WINDOWS':'trimf',[0.75 1 1.25]
+
+[Input3]
+Name='COOKIE'
+Range=[0 1]
+NumMFs=2
+MF1='SIM':'trimf',[-1 0 1]
+MF2='NAO':'trimf',[0 1 2]
+
+[Input4]
+Name='URI'
+Range=[0 1]
+NumMFs=4
+MF1='ARQ':'trimf',[-0.3333 0 0.3333]
+MF2='IMG':'trimf',[0 0.3333 0.6667]
+MF3='OUTROS':'trimf',[0.3333 0.6667 1]
+MF4='WEB':'trimf',[0.6667 1 1.333]
+
+[Input5]
+Name='URL'
+Range=[0 1]
+NumMFs=3
+MF1='LOJA':'trimf',[-0.5 0 0.5]
+MF2='REDESOCIAL':'trimf',[0 0.5 1]6667]
+MF3='MKT':'trimf',[0.5 1 1.5]
+
+[Input6]
+Name='METODO'
+Range=[0 1]
+NumMFs=6
+MF1='GET':'trimf',[-0.2 3.469e-18 0.2]
+MF2='HEAD':'trimf',[0 0.2 0.4]
+MF3='POST':'trimf',[0.2 0.4 0.6]
+MF4='OPTI':'trimf',[0.4 0.6 0.8]
+MF5='MKCO':'trimf',[0.6 0.8 1]
+MF6='PUT':'trimf',[0.8 1 1.2]
+
+[Output1]
+Name='WAFInfo'
+Range=[0 1]
+NumMFs=4
+MF1='EXT':'trimf',[-0.3333 0 0.3333]
+MF2='PROT':'trimf',[0 0.3333 0.6667]
+MF3='BROW':'trimf',[0.3333 0.6667 1]
+MF4='SEM':'trimf',[0.6667 1 1.333]
