@@ -1,0 +1,36 @@
+
+dbName = 'SQL Server Local';
+username = '';
+password = '';
+tableName = '[WAFFW05].[dbo].[Filtro1]';
+
+
+filter1Query = ['SELECT cast([METODO]as int) as METODO', ...
+      ',cast([URI]as int) as URI', ...
+      ',cast([URL]as int) as URL', ...
+      ',cast([USERAGENT]as int) as USERAGENT', ...
+      ',cast([BROWSER]as int) as BROWSER', ...
+      ',cast([COOKIE]as int) as COOKIE', ...
+      ',[QSTATUS]', ...
+      ',[SSTATUS]', ...
+      ',[MSTATUS]', ...
+      ',[BYTES]', ...
+      ',[TEMPO]', ...
+  'FROM ', tableName];
+
+data = loadNumericDataFromDB(dbName, username, password, filter1Query);
+
+
+method = data(:, 1);
+uri = data(:, 2);
+url = data(:, 3);
+useragent = data(:, 4);
+browser = data(:, 5);
+cookie = data(:, 6);
+sstatus = data(:, 7);
+qstatus = data(:, 8);
+mstatus = data(:, 9);
+bytes = data(:, 10);
+tempo = data(:, 11);
+
+[method, browser];
