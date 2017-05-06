@@ -1,0 +1,2784 @@
+
+RegLog05A1 = 
+
+
+Generalized Linear regression model:
+    logit(LSTATUS) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER
+    Distribution = Binomial
+
+Estimated Coefficients:
+                   Estimate        SE           tStat       pValue 
+                   ________    __________    ___________    _______
+
+    (Intercept)     -135.72    1.8025e+07      -7.53e-06    0.99999
+    METODO_1         -99.67    2.0234e+07    -4.9258e-06          1
+    METODO_2        0.50472        1.1853        0.42583    0.67023
+    URI_1           -1.1256       0.91155        -1.2348    0.21691
+    URI_2          -0.28638       0.68005       -0.42112    0.67367
+    URI_3           -1.1684       0.81431        -1.4349    0.15133
+    URL_1            0.7965       0.72952         1.0918    0.27491
+    URL_3           -97.492    2.1222e+07     -4.594e-06          1
+    URL_4          -0.49042        1.2015       -0.40818    0.68314
+    USERAGENT_1      86.892    1.2524e+07     6.9383e-06    0.99999
+    USERAGENT_2      86.529    1.2524e+07     6.9092e-06    0.99999
+    USERAGENT_3       86.67    1.2524e+07     6.9205e-06    0.99999
+    USERAGENT_4      86.803    1.2524e+07     6.9311e-06    0.99999
+    COOKIE_1       -0.93416       0.69564        -1.3429    0.17931
+    BROWSER_1       -53.647    4.4024e+07    -1.2186e-06          1
+    BROWSER_2        46.261    2.0903e+07     2.2132e-06          1
+    BROWSER_3        46.642    2.0903e+07     2.2314e-06          1
+    BROWSER_4       -25.704    3.8309e+07    -6.7096e-07          1
+    BROWSER_5        46.776    2.0903e+07     2.2378e-06          1
+    BROWSER_6            45    2.0903e+07     2.1529e-06          1
+    BROWSER_7       -53.811    3.2868e+07    -1.6372e-06          1
+
+
+548 observations, 527 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 23, p-value = 0.29
+
+RegLog05A2 = 
+
+
+Generalized Linear regression model:
+    logit(LREGRA) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER + MSTATUS
+    Distribution = Binomial
+
+Estimated Coefficients:
+                    Estimate          SE           tStat       pValue
+                   ___________    __________    ___________    ______
+
+    (Intercept)        -102.57    2.1391e+07    -4.7947e-06    1     
+    METODO_1       -1.3851e-13    2.0822e+07     -6.652e-21    1     
+    METODO_2       -1.6685e-12    1.1298e+07    -1.4768e-19    1     
+    URI_1           1.9134e-12    1.1624e+07     1.6461e-19    1     
+    URI_2           3.5574e-12    1.0313e+07     3.4493e-19    1     
+    URI_3           1.1831e-12    1.0607e+07     1.1155e-19    1     
+    URL_1            3.284e-13    7.2393e+06     4.5363e-20    1     
+    URL_3          -1.2979e-12    2.2457e+07    -5.7795e-20    1     
+    URL_4           6.6871e-13    1.0305e+07     6.4891e-20    1     
+    USERAGENT_1     5.4664e-13    1.5169e+07     3.6037e-20    1     
+    USERAGENT_2     8.5604e-13    1.5703e+07     5.4513e-20    1     
+    USERAGENT_3     3.6154e-13    1.4255e+07     2.5362e-20    1     
+    USERAGENT_4      5.509e-13    1.4134e+07     3.8976e-20    1     
+    COOKIE_1        3.0714e-13    6.5634e+06     4.6797e-20    1     
+    BROWSER_1      -1.5745e-12    4.4808e+07     -3.514e-20    1     
+    BROWSER_2      -1.9865e-12    2.2476e+07    -8.8386e-20    1     
+    BROWSER_3      -2.5997e-12    2.2062e+07    -1.1784e-19    1     
+    BROWSER_4      -3.1615e-12    3.8596e+07    -8.1913e-20    1     
+    BROWSER_5      -2.6089e-12    2.1932e+07    -1.1895e-19    1     
+    BROWSER_6      -2.5341e-12    2.1644e+07    -1.1708e-19    1     
+    BROWSER_7       -4.892e-13    3.3708e+07    -1.4513e-20    1     
+    MSTATUS         5.8097e-15    2.2396e+05      2.594e-20    1     
+
+
+548 observations, 526 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 0, p-value = 1
+
+RegLog05B1 = 
+
+
+Generalized Linear regression model:
+    logit(LSTATUS) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER
+    Distribution = Binomial
+
+Estimated Coefficients:
+                   Estimate        SE           tStat       pValue 
+                   ________    __________    ___________    _______
+
+    (Intercept)     -110.06    2.0945e+07    -5.2547e-06          1
+    METODO_1        -86.949    1.5921e+07    -5.4613e-06          1
+    METODO_2       -0.32064         1.101       -0.29122    0.77088
+    METODO_5         -100.7    6.7109e+07    -1.5005e-06          1
+    URI_1           -1.6569        1.2129        -1.3661    0.17191
+    URI_2          -0.39364       0.76726       -0.51305    0.60792
+    URI_3          -0.23976        0.7517       -0.31896    0.74976
+    URL_1           0.43044        0.5884        0.73154    0.46445
+    URL_3           -99.059    2.7397e+07    -3.6157e-06          1
+    URL_4           -87.417    1.1004e+07    -7.9442e-06    0.99999
+    USERAGENT_1       75.33      1.37e+07     5.4987e-06          1
+    USERAGENT_2     -15.072    1.5929e+07    -9.4622e-07          1
+    USERAGENT_3      74.877      1.37e+07     5.4656e-06          1
+    USERAGENT_4      75.306      1.37e+07      5.497e-06          1
+    COOKIE_1       -0.10504       0.58875       -0.17841     0.8584
+    BROWSER_1       -66.887    7.0679e+07    -9.4634e-07          1
+    BROWSER_2        32.208    2.2181e+07      1.452e-06          1
+    BROWSER_3        33.096    2.2181e+07     1.4921e-06          1
+    BROWSER_4       -45.821    5.1674e+07    -8.8673e-07          1
+    BROWSER_5        32.882    2.2181e+07     1.4825e-06          1
+    BROWSER_6        31.163    2.2181e+07      1.405e-06          1
+    BROWSER_7       -67.807     3.525e+07    -1.9236e-06          1
+
+
+467 observations, 445 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 25.3, p-value = 0.233
+
+RegLog05B2 = 
+
+
+Generalized Linear regression model:
+    logit(LREGRA) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER + MSTATUS
+    Distribution = Binomial
+
+Estimated Coefficients:
+                    Estimate          SE           tStat       pValue
+                   ___________    __________    ___________    ______
+
+    (Intercept)        -102.57    2.6875e+07    -3.8165e-06    1     
+    METODO_1       -3.1896e-12     1.668e+07    -1.9122e-19    1     
+    METODO_2       -6.7222e-13      1.35e+07    -4.9792e-20    1     
+    METODO_5        9.8993e-13    6.8157e+07     1.4524e-20    1     
+    URI_1          -5.7439e-13    1.2892e+07    -4.4552e-20    1     
+    URI_2           -6.059e-13    1.1253e+07    -5.3842e-20    1     
+    URI_3          -2.1926e-12    1.1455e+07    -1.9141e-19    1     
+    URL_1           2.2521e-13    7.7341e+06     2.9119e-20    1     
+    URL_3           8.2757e-12    2.8654e+07     2.8881e-19    1     
+    URL_4           1.8114e-13    1.2408e+07     1.4599e-20    1     
+    USERAGENT_1    -9.0953e-13    1.7407e+07     -5.225e-20    1     
+    USERAGENT_2     -7.883e-13    1.7436e+07    -4.5211e-20    1     
+    USERAGENT_3    -1.7886e-13    1.5887e+07    -1.1259e-20    1     
+    USERAGENT_4    -1.0894e-13    1.6098e+07    -6.7672e-21    1     
+    COOKIE_1        1.0855e-13    7.1801e+06     1.5118e-20    1     
+    BROWSER_1       4.5615e-13    7.2855e+07     6.2611e-21    1     
+    BROWSER_2       3.5214e-13    2.8439e+07     1.2382e-20    1     
+    BROWSER_3      -4.2711e-13    2.7874e+07    -1.5323e-20    1     
+    BROWSER_4      -4.4923e-12    5.3716e+07    -8.3631e-20    1     
+    BROWSER_5      -2.9328e-13    2.7825e+07     -1.054e-20    1     
+    BROWSER_6       1.8972e-13    2.7472e+07     6.9062e-21    1     
+    BROWSER_7       9.9638e-14    3.9392e+07     2.5294e-21    1     
+    MSTATUS        -2.2858e-15    2.2488e+05    -1.0164e-20    1     
+
+
+467 observations, 444 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 0, p-value = 1
+
+RegLog05C1 = 
+
+
+Generalized Linear regression model:
+    logit(LSTATUS) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER
+    Distribution = Binomial
+
+Estimated Coefficients:
+                   Estimate        SE           tStat       pValue 
+                   ________    __________    ___________    _______
+
+    (Intercept)     -1.1943        1.4005       -0.85279    0.39378
+    METODO_1        -90.709    2.5456e+07    -3.5634e-06          1
+    METODO_2         1.0581       0.88604         1.1942    0.23239
+    URI_1            -0.225       0.90443       -0.24877    0.80354
+    URI_2          -0.46505       0.80173       -0.58006    0.56187
+    URI_3          -0.70716       0.81626       -0.86634     0.3863
+    URL_1           0.02859       0.63105       0.045306    0.96386
+    URL_3           -99.415    3.0012e+07    -3.3125e-06          1
+    URL_4           -96.462     1.506e+07    -6.4052e-06    0.99999
+    USERAGENT_1      104.08    1.7936e+07     5.8029e-06          1
+    USERAGENT_2      104.03    1.7936e+07        5.8e-06          1
+    USERAGENT_3      104.56    1.7936e+07     5.8297e-06          1
+    USERAGENT_4      104.86    1.7936e+07     5.8467e-06          1
+    COOKIE_1       -0.11279        0.6509       -0.17328    0.86243
+    BROWSER_1       -205.35    6.9464e+07    -2.9562e-06          1
+    BROWSER_2          -106    1.7936e+07    -5.9102e-06          1
+    BROWSER_3       -105.32    1.7936e+07    -5.8719e-06          1
+    BROWSER_4        -205.8     5.073e+07    -4.0568e-06          1
+    BROWSER_5       -105.34    1.7936e+07    -5.8732e-06          1
+    BROWSER_6       -106.58    1.7936e+07    -5.9421e-06          1
+    BROWSER_7       -205.32    3.4963e+07    -5.8726e-06          1
+
+
+353 observations, 332 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 14.1, p-value = 0.827
+
+RegLog05C2 = 
+
+
+Generalized Linear regression model:
+    logit(LREGRA) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER + MSTATUS
+    Distribution = Binomial
+
+Estimated Coefficients:
+                    Estimate          SE           tStat       pValue
+                   ___________    __________    ___________    ______
+
+    (Intercept)        -102.57    3.1094e+07    -3.2986e-06    1     
+    METODO_1       -4.5472e-12    2.6347e+07    -1.7259e-19    1     
+    METODO_2       -3.3712e-12    1.4941e+07    -2.2563e-19    1     
+    URI_1           4.3371e-13    1.4875e+07     2.9156e-20    1     
+    URI_2          -2.5126e-12    1.3097e+07    -1.9185e-19    1     
+    URI_3          -2.4462e-12    1.3028e+07    -1.8776e-19    1     
+    URL_1          -6.0051e-13    9.2788e+06    -6.4718e-20    1     
+    URL_3          -4.6493e-13    3.1905e+07    -1.4572e-20    1     
+    URL_4          -1.8685e-12    1.7183e+07    -1.0874e-19    1     
+    USERAGENT_1    -1.0321e-12    2.1947e+07    -4.7027e-20    1     
+    USERAGENT_2    -9.6201e-13    2.1837e+07    -4.4053e-20    1     
+    USERAGENT_3    -8.9715e-13    1.9945e+07     -4.498e-20    1     
+    USERAGENT_4    -4.5234e-13    2.0426e+07    -2.2145e-20    1     
+    COOKIE_1       -1.5359e-13    8.9486e+06    -1.7164e-20    1     
+    BROWSER_1      -3.0064e-13    7.5761e+07    -3.9683e-21    1     
+    BROWSER_2       5.8304e-13    3.5127e+07     1.6598e-20    1     
+    BROWSER_3       7.0168e-13    3.4118e+07     2.0567e-20    1     
+    BROWSER_4         1.29e-12    5.9233e+07     2.1779e-20    1     
+    BROWSER_5        1.259e-12    3.4169e+07     3.6845e-20    1     
+    BROWSER_6       1.5229e-12    3.4295e+07     4.4406e-20    1     
+    BROWSER_7       2.3967e-12    4.6435e+07     5.1614e-20    1     
+    MSTATUS         1.7659e-14    2.0439e+05     8.6397e-20    1     
+
+
+353 observations, 331 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 0, p-value = 1
+
+RegLog05D1 = 
+
+
+Generalized Linear regression model:
+    logit(LSTATUS) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER
+    Distribution = Binomial
+
+Estimated Coefficients:
+                   Estimate        SE           tStat       pValue 
+                   ________    __________    ___________    _______
+
+    (Intercept)    -0.70685        1.4038       -0.50351     0.6146
+    METODO_1        -77.436    2.7599e+07    -2.8057e-06          1
+    METODO_2        0.27682        1.1772        0.23516    0.81408
+    URI_1           -1.5453        1.2197        -1.2669    0.20519
+    URI_2          -0.65131       0.78069       -0.83427    0.40413
+    URI_3          -0.79485       0.79266        -1.0028    0.31597
+    URL_1            0.0386       0.70554        0.05471    0.95637
+    URL_3           -99.245    3.8745e+07    -2.5615e-06          1
+    URL_4           -93.852    1.4335e+07    -6.5471e-06    0.99999
+    USERAGENT_1      101.12    1.7425e+07     5.8035e-06          1
+    USERAGENT_2       5.108      1.99e+07     2.5668e-07          1
+    USERAGENT_3      99.651    1.7425e+07     5.7189e-06          1
+    USERAGENT_4      100.44    1.7425e+07     5.7639e-06          1
+    COOKIE_1       -0.82324       0.74546        -1.1043    0.26945
+    BROWSER_1       -200.53    5.0551e+07    -3.9669e-06          1
+    BROWSER_2       -101.34    1.7425e+07    -5.8156e-06          1
+    BROWSER_3       -101.28    1.7425e+07    -5.8123e-06          1
+    BROWSER_5       -100.38    1.7425e+07    -5.7607e-06          1
+    BROWSER_6       -103.28    1.7425e+07    -5.9272e-06          1
+    BROWSER_7       -201.33    3.7809e+07     -5.325e-06          1
+
+
+321 observations, 301 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 26.8, p-value = 0.11
+
+RegLog05D2 = 
+
+
+Generalized Linear regression model:
+    logit(LREGRA) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER + MSTATUS
+    Distribution = Binomial
+
+Estimated Coefficients:
+                    Estimate          SE           tStat       pValue
+                   ___________    __________    ___________    ______
+
+    (Intercept)        -102.57    2.8148e+07    -3.6439e-06    1     
+    METODO_1        4.7682e-12     2.861e+07     1.6666e-19    1     
+    METODO_2        1.6156e-12    1.5329e+07      1.054e-19    1     
+    URI_1          -5.2067e-14    1.6704e+07    -3.1171e-21    1     
+    URI_2          -4.5329e-13    1.3579e+07    -3.3381e-20    1     
+    URI_3           8.2784e-13    1.3631e+07      6.073e-20    1     
+    URL_1          -3.0118e-13    9.7882e+06     -3.077e-20    1     
+    URL_3            2.259e-12     4.011e+07      5.632e-20    1     
+    URL_4           9.0873e-13    1.6265e+07     5.5872e-20    1     
+    USERAGENT_1     7.0024e-13    2.3163e+07     3.0231e-20    1     
+    USERAGENT_2     5.9274e-13     2.322e+07     2.5527e-20    1     
+    USERAGENT_3     5.1079e-13     1.969e+07     2.5941e-20    1     
+    USERAGENT_4     3.7519e-13    2.1362e+07     1.7563e-20    1     
+    COOKIE_1       -7.7582e-13    9.1632e+06    -8.4667e-20    1     
+    BROWSER_1       8.1269e-13    5.7158e+07     1.4218e-20    1     
+    BROWSER_2        3.287e-13    3.3369e+07     9.8503e-21    1     
+    BROWSER_3      -5.1828e-13    3.0794e+07     -1.683e-20    1     
+    BROWSER_5      -7.8576e-13     3.135e+07    -2.5064e-20    1     
+    BROWSER_6      -5.9855e-13    3.2388e+07    -1.8481e-20    1     
+    BROWSER_7      -2.9017e-13    4.7562e+07    -6.1008e-21    1     
+    MSTATUS        -8.4711e-15    2.0727e+05    -4.0869e-20    1     
+
+
+321 observations, 300 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 0, p-value = 1
+
+RegLog05E1 = 
+
+
+Generalized Linear regression model:
+    logit(LSTATUS) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER
+    Distribution = Binomial
+
+Estimated Coefficients:
+                   Estimate        SE           tStat       pValue 
+                   ________    __________    ___________    _______
+
+    (Intercept)     -95.325    1.6764e+07    -5.6863e-06          1
+    METODO_1        0.50205        1.2034         0.4172    0.67653
+    METODO_2        0.32515        1.1593        0.28047    0.77912
+    URI_1           -98.142    8.4209e+06    -1.1655e-05    0.99999
+    URI_2          0.080996       0.75265        0.10761     0.9143
+    URI_3          -0.35467       0.80586       -0.44011    0.65985
+    URL_1           0.86849       0.81942         1.0599     0.2892
+    URL_3           -99.128    3.3554e+07    -2.9542e-06          1
+    URL_4           -94.865    1.1451e+07    -8.2847e-06    0.99999
+    USERAGENT_1       60.69    1.1582e+07     5.2403e-06          1
+    USERAGENT_2      60.745    1.1582e+07      5.245e-06          1
+    USERAGENT_3      60.574    1.1582e+07     5.2302e-06          1
+    USERAGENT_4       60.68    1.1582e+07     5.2394e-06          1
+    COOKIE_1        -1.1325       0.81442        -1.3905    0.16437
+    BROWSER_1       -68.213    3.7411e+07    -1.8234e-06          1
+    BROWSER_2        31.432    1.6543e+07        1.9e-06          1
+    BROWSER_3        32.032    1.6543e+07     1.9363e-06          1
+    BROWSER_4       -58.583    4.1803e+07    -1.4014e-06          1
+    BROWSER_5        32.349    1.6543e+07     1.9554e-06          1
+    BROWSER_6        31.061    1.6543e+07     1.8776e-06          1
+    BROWSER_7       -68.385    2.7822e+07     -2.458e-06          1
+
+
+435 observations, 414 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 28.5, p-value = 0.0977
+
+RegLog05E2 = 
+
+
+Generalized Linear regression model:
+    logit(LREGRA) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER + MSTATUS
+    Distribution = Binomial
+
+Estimated Coefficients:
+                    Estimate          SE           tStat       pValue
+                   ___________    __________    ___________    ______
+
+    (Intercept)        -102.57    2.5085e+07    -4.0887e-06    1     
+    METODO_1        1.2577e-12    2.3159e+07     5.4309e-20    1     
+    METODO_2        -1.655e-12    1.2999e+07    -1.2731e-19    1     
+    URI_1           8.3299e-13    1.3817e+07     6.0287e-20    1     
+    URI_2           2.2319e-12    1.2066e+07     1.8498e-19    1     
+    URI_3           4.8804e-12    1.2488e+07     3.9081e-19    1     
+    URL_1          -7.7004e-13    8.4969e+06    -9.0627e-20    1     
+    URL_3          -1.7596e-11    3.4593e+07    -5.0864e-19    1     
+    URL_4           8.6799e-13    1.3254e+07     6.5487e-20    1     
+    USERAGENT_1     2.8984e-13    1.5556e+07     1.8632e-20    1     
+    USERAGENT_2    -3.7284e-14    1.5828e+07    -2.3556e-21    1     
+    USERAGENT_3     1.7396e-13     1.437e+07     1.2106e-20    1     
+    USERAGENT_4    -2.2639e-13    1.4327e+07    -1.5801e-20    1     
+    COOKIE_1       -3.8878e-13    7.8811e+06    -4.9331e-20    1     
+    BROWSER_1       1.4404e-12    4.2188e+07     3.4142e-20    1     
+    BROWSER_2       2.0223e-12    2.5684e+07     7.8738e-20    1     
+    BROWSER_3       1.7139e-12    2.5197e+07      6.802e-20    1     
+    BROWSER_4       2.6158e-12    4.5311e+07     5.7729e-20    1     
+    BROWSER_5       2.1563e-12    2.4907e+07     8.6574e-20    1     
+    BROWSER_6       2.0301e-12    2.4682e+07     8.2249e-20    1     
+    BROWSER_7       4.9999e-12    3.3939e+07     1.4732e-19    1     
+    MSTATUS        -8.7539e-15    2.1531e+05    -4.0658e-20    1     
+
+
+435 observations, 413 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 0, p-value = 1
+
+RegLog05F1 = 
+
+
+Generalized Linear regression model:
+    logit(LSTATUS) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER
+    Distribution = Binomial
+
+Estimated Coefficients:
+                   Estimate        SE           tStat        pValue 
+                   ________    __________    ___________    ________
+
+    (Intercept)     -98.882    1.4939e+07     -6.619e-06     0.99999
+    METODO_1         0.6351         1.249        0.50848     0.61111
+    METODO_2         0.7475        1.1987        0.62359      0.5329
+    URI_1           -2.1439        1.1807        -1.8158    0.069398
+    URI_2          -0.24177       0.70416       -0.34334     0.73134
+    URI_3          -0.92869        0.7836        -1.1852     0.23595
+    URL_1            1.5729       0.79031         1.9903     0.04656
+    URL_3           -98.362    2.7397e+07    -3.5902e-06           1
+    URL_4           -91.565    1.0044e+07    -9.1165e-06     0.99999
+    USERAGENT_1       64.88    1.1227e+07     5.7788e-06           1
+    USERAGENT_2     -28.365    1.4002e+07    -2.0257e-06           1
+    USERAGENT_3       64.46    1.1227e+07     5.7414e-06           1
+    USERAGENT_4      64.618    1.1227e+07     5.7554e-06           1
+    COOKIE_1       -0.59907       0.64094       -0.93468     0.34995
+    BROWSER_1        31.711    1.4513e+07      2.185e-06           1
+    BROWSER_2         29.35    1.4513e+07     2.0223e-06           1
+    BROWSER_3        32.105    1.4513e+07     2.2122e-06           1
+    BROWSER_4       -61.354    3.6277e+07    -1.6913e-06           1
+    BROWSER_5        31.423    1.4513e+07     2.1651e-06           1
+    BROWSER_6        30.438    1.4513e+07     2.0973e-06           1
+    BROWSER_7       -52.536    2.5007e+07    -2.1008e-06           1
+
+
+529 observations, 508 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 41.9, p-value = 0.00286
+
+RegLog05F2 = 
+
+
+Generalized Linear regression model:
+    logit(LREGRA) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER + MSTATUS
+    Distribution = Binomial
+
+Estimated Coefficients:
+                    Estimate          SE           tStat       pValue
+                   ___________    __________    ___________    ______
+
+    (Intercept)        -102.57    2.2373e+07    -4.5843e-06    1     
+    METODO_1        6.9021e-13    2.1042e+07     3.2801e-20    1     
+    METODO_2        4.4092e-12    1.1979e+07     3.6807e-19    1     
+    URI_1          -3.4275e-12    1.2644e+07    -2.7107e-19    1     
+    URI_2          -6.2736e-12    1.1317e+07    -5.5433e-19    1     
+    URI_3          -8.9275e-12    1.1692e+07    -7.6354e-19    1     
+    URL_1           7.3164e-14    7.5149e+06     9.7359e-21    1     
+    URL_3           4.0842e-13    2.8554e+07     1.4303e-20    1     
+    URL_4           7.6887e-13    1.1604e+07     6.6259e-20    1     
+    USERAGENT_1     9.4628e-13    1.4232e+07     6.6491e-20    1     
+    USERAGENT_2    -7.6171e-13    1.5069e+07    -5.0549e-20    1     
+    USERAGENT_3    -5.4778e-13    1.4051e+07    -3.8986e-20    1     
+    USERAGENT_4     9.1575e-14    1.3434e+07     6.8165e-21    1     
+    COOKIE_1        5.6722e-13    6.8247e+06     8.3114e-20    1     
+    BROWSER_1      -1.9926e-12    3.3158e+07    -6.0095e-20    1     
+    BROWSER_2      -5.3774e-13      2.27e+07    -2.3689e-20    1     
+    BROWSER_3      -5.1525e-13    2.2991e+07    -2.2411e-20    1     
+    BROWSER_4      -3.9868e-13    3.9985e+07    -9.9708e-21    1     
+    BROWSER_5      -1.2177e-13    2.2287e+07    -5.4636e-21    1     
+    BROWSER_6      -5.6262e-13    2.1779e+07    -2.5833e-20    1     
+    BROWSER_7      -9.5914e-13    3.0454e+07    -3.1495e-20    1     
+    MSTATUS         -4.712e-15    1.8938e+05    -2.4882e-20    1     
+
+
+529 observations, 507 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 0, p-value = 1
+
+RegLog05G1 = 
+
+
+Generalized Linear regression model:
+    logit(LSTATUS) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER
+    Distribution = Binomial
+
+Estimated Coefficients:
+                   Estimate        SE           tStat        pValue 
+                   ________    __________    ___________    ________
+
+    (Intercept)      -96.72    1.4328e+07    -6.7503e-06     0.99999
+    METODO_1        -94.124    2.1236e+07    -4.4324e-06           1
+    METODO_2       0.042856       0.80254         0.0534     0.95741
+    METODO_3        -5.3406    7.2512e+07    -7.3651e-08           1
+    URI_1          -0.84969       0.86939       -0.97734      0.3284
+    URI_2           0.38934       0.69934        0.55672     0.57772
+    URI_3           0.10561       0.72779        0.14512     0.88462
+    URL_1              1.24       0.50462         2.4572    0.014002
+    URL_3           -98.762    2.3727e+07    -4.1625e-06           1
+    URL_4           -91.963    9.8538e+06    -9.3328e-06     0.99999
+    USERAGENT_1       60.81    1.1655e+07     5.2176e-06           1
+    USERAGENT_2      -32.87    1.3962e+07    -2.3542e-06           1
+    USERAGENT_3      61.283    1.1655e+07     5.2582e-06           1
+    USERAGENT_4        60.8    1.1655e+07     5.2168e-06           1
+    COOKIE_1        0.29585       0.44974        0.65783     0.51065
+    BROWSER_1        32.235    1.4722e+07     2.1895e-06           1
+    BROWSER_2        32.476    1.4722e+07     2.2059e-06           1
+    BROWSER_3        32.453    1.4722e+07     2.2043e-06           1
+    BROWSER_4       -63.418    3.0766e+07    -2.0613e-06           1
+    BROWSER_5        32.092    1.4722e+07     2.1798e-06           1
+    BROWSER_6        31.724    1.4722e+07     2.1548e-06           1
+    BROWSER_7       -49.673    2.5937e+07    -1.9151e-06           1
+
+
+576 observations, 554 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 35.2, p-value = 0.0268
+
+RegLog05G2 = 
+
+
+Generalized Linear regression model:
+    logit(LREGRA) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER + MSTATUS
+    Distribution = Binomial
+
+Estimated Coefficients:
+                    Estimate          SE           tStat       pValue
+                   ___________    __________    ___________    ______
+
+    (Intercept)        -102.57    2.0543e+07    -4.9928e-06    1     
+    METODO_1       -3.7259e-12    2.1948e+07    -1.6976e-19    1     
+    METODO_2       -1.3244e-13    1.1186e+07    -1.1839e-20    1     
+    METODO_3       -2.0862e-11    7.3064e+07    -2.8553e-19    1     
+    URI_1           5.1572e-12    1.1766e+07      4.383e-19    1     
+    URI_2           2.1516e-12    1.0693e+07     2.0121e-19    1     
+    URI_3           3.5134e-12    1.0929e+07     3.2147e-19    1     
+    URL_1             3.01e-13    6.9449e+06     4.3341e-20    1     
+    URL_3          -3.6931e-12    2.4929e+07    -1.4814e-19    1     
+    URL_4           1.1429e-12     1.131e+07     1.0105e-19    1     
+    USERAGENT_1     6.1137e-13    1.4894e+07     4.1048e-20    1     
+    USERAGENT_2     8.0396e-13    1.5251e+07     5.2715e-20    1     
+    USERAGENT_3     1.0276e-12     1.436e+07     7.1561e-20    1     
+    USERAGENT_4     3.5603e-14     1.389e+07     2.5632e-21    1     
+    COOKIE_1        1.8723e-13    6.2344e+06     3.0032e-20    1     
+    BROWSER_1       5.0126e-13    3.2093e+07     1.5619e-20    1     
+    BROWSER_2       9.3606e-13     2.153e+07     4.3476e-20    1     
+    BROWSER_3       2.1384e-13    2.1457e+07      9.966e-21    1     
+    BROWSER_4       1.7955e-12    3.4133e+07     5.2602e-20    1     
+    BROWSER_5       1.0772e-12    2.1128e+07     5.0982e-20    1     
+    BROWSER_6       1.0038e-12    2.0685e+07     4.8526e-20    1     
+    BROWSER_7       7.7553e-13    3.0208e+07     2.5673e-20    1     
+    MSTATUS         7.9562e-15    1.9467e+05     4.0869e-20    1     
+
+
+576 observations, 553 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 0, p-value = 1
+
+RegLog05H1 = 
+
+
+Generalized Linear regression model:
+    logit(LSTATUS) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER
+    Distribution = Binomial
+
+Estimated Coefficients:
+                   Estimate        SE           tStat        pValue 
+                   ________    __________    ___________    ________
+
+    (Intercept)     -1.5004        1.0731        -1.3981     0.16208
+    METODO_1        0.32225       0.84475        0.38147     0.70285
+    METODO_2        0.30631       0.82317        0.37211     0.70981
+    URI_1          -0.28177       0.70882       -0.39752     0.69099
+    URI_2          -0.44066       0.66161       -0.66604     0.50538
+    URI_3          -0.47982       0.67322       -0.71273     0.47602
+    URL_1           0.50916       0.50221         1.0138     0.31066
+    URL_3           -98.795    3.0012e+07    -3.2918e-06           1
+    URL_4             -89.9    9.4745e+06    -9.4887e-06     0.99999
+    USERAGENT_1      1.1137        1.3985         0.7964      0.4258
+    USERAGENT_2     -89.705    7.7016e+06    -1.1648e-05     0.99999
+    USERAGENT_3      1.5988        1.3604         1.1753     0.23989
+    USERAGENT_4      1.5694         1.372         1.1439     0.25267
+    COOKIE_1       -0.45118       0.49543        -0.9107     0.36246
+    BROWSER_1       -102.43    3.0012e+07    -3.4131e-06           1
+    BROWSER_2       -2.3177        1.4523        -1.5958     0.11052
+    BROWSER_3        -1.887         1.449        -1.3023     0.19282
+    BROWSER_4        -102.4    3.0012e+07    -3.4121e-06           1
+    BROWSER_5       -2.2957        1.4279        -1.6077     0.10789
+    BROWSER_6       -3.6881        1.5423        -2.3913    0.016791
+    BROWSER_7       -85.821    2.0343e+07    -4.2187e-06           1
+
+
+562 observations, 541 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 33.7, p-value = 0.0284
+
+RegLog05H2 = 
+
+
+Generalized Linear regression model:
+    logit(LREGRA) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER + MSTATUS
+    Distribution = Binomial
+
+Estimated Coefficients:
+                    Estimate          SE           tStat       pValue
+                   ___________    __________    ___________    ______
+
+    (Intercept)        -102.57    2.1426e+07     -4.787e-06    1     
+    METODO_1        2.4452e-12    1.6292e+07     1.5008e-19    1     
+    METODO_2       -6.4654e-12    1.1487e+07    -5.6284e-19    1     
+    URI_1           3.6961e-13    1.1982e+07     3.0848e-20    1     
+    URI_2           1.0663e-12    1.0965e+07     9.7243e-20    1     
+    URI_3           2.0906e-12    1.1233e+07     1.8611e-19    1     
+    URL_1           1.1452e-13    7.0723e+06     1.6193e-20    1     
+    URL_3           3.4995e-12    3.1001e+07     1.1288e-19    1     
+    URL_4          -1.4334e-12    1.0995e+07    -1.3037e-19    1     
+    USERAGENT_1      6.082e-13    1.5226e+07     3.9946e-20    1     
+    USERAGENT_2     5.2174e-13    1.5477e+07     3.3711e-20    1     
+    USERAGENT_3     6.9913e-13    1.4449e+07     4.8387e-20    1     
+    USERAGENT_4    -5.5894e-14    1.4185e+07    -3.9403e-21    1     
+    COOKIE_1        2.4674e-13    6.5185e+06     3.7852e-20    1     
+    BROWSER_1      -2.3794e-12    3.7937e+07    -6.2719e-20    1     
+    BROWSER_2      -5.2779e-13    2.3013e+07    -2.2934e-20    1     
+    BROWSER_3       -1.863e-13    2.2673e+07    -8.2167e-21    1     
+    BROWSER_4      -1.1108e-12    3.6999e+07    -3.0022e-20    1     
+    BROWSER_5      -2.8296e-13    2.2571e+07    -1.2537e-20    1     
+    BROWSER_6      -1.7397e-14     2.225e+07    -7.8186e-22    1     
+    BROWSER_7      -9.9097e-13    3.0728e+07     -3.225e-20    1     
+    MSTATUS         1.5071e-14    1.7232e+05     8.7456e-20    1     
+
+
+562 observations, 540 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 0, p-value = 1
+
+RegLog05I1 = 
+
+
+Generalized Linear regression model:
+    logit(LSTATUS) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER
+    Distribution = Binomial
+
+Estimated Coefficients:
+                   Estimate         SE           tStat       pValue 
+                   _________    __________    ___________    _______
+
+    (Intercept)      -115.93    1.7374e+07    -6.6725e-06    0.99999
+    METODO_1         0.40844        1.1086        0.36842    0.71256
+    METODO_2        -0.14284        0.8005       -0.17844    0.85838
+    URI_1           -0.50451       0.73282       -0.68846    0.49117
+    URI_2           -0.45998       0.63788       -0.72111    0.47084
+    URI_3           -0.63563        0.6773       -0.93848      0.348
+    URL_1          -0.025075       0.48185      -0.052038     0.9585
+    URL_3            -99.267    2.3727e+07    -4.1838e-06          1
+    URL_4            -98.662    9.6902e+06    -1.0182e-05    0.99999
+    USERAGENT_1       81.695    1.3135e+07     6.2199e-06          1
+    USERAGENT_2       80.674    1.3135e+07     6.1421e-06          1
+    USERAGENT_3       82.275    1.3135e+07     6.2641e-06          1
+    USERAGENT_4       82.201    1.3135e+07     6.2584e-06          1
+    COOKIE_1        0.028853        0.4789       0.060249    0.95196
+    BROWSER_1        -68.362    2.5237e+07    -2.7088e-06          1
+    BROWSER_2          32.17    1.5083e+07     2.1328e-06          1
+    BROWSER_3         31.599    1.5083e+07     2.0949e-06          1
+    BROWSER_4        -59.818    3.1089e+07    -1.9241e-06          1
+    BROWSER_5         31.533    1.5083e+07     2.0906e-06          1
+    BROWSER_6         31.083    1.5083e+07     2.0607e-06          1
+    BROWSER_7        -67.959    2.6036e+07    -2.6102e-06          1
+
+
+556 observations, 535 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 21.8, p-value = 0.353
+
+RegLog05I2 = 
+
+
+Generalized Linear regression model:
+    logit(LREGRA) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER + MSTATUS
+    Distribution = Binomial
+
+Estimated Coefficients:
+                    Estimate          SE           tStat       pValue
+                   ___________    __________    ___________    ______
+
+    (Intercept)        -102.57    2.6443e+07    -3.8788e-06    1     
+    METODO_1        4.1492e-12    1.9341e+07     2.1452e-19    1     
+    METODO_2         2.649e-12    1.1679e+07     2.2682e-19    1     
+    URI_1          -1.4246e-12    1.1994e+07    -1.1877e-19    1     
+    URI_2          -7.9843e-13    1.0768e+07    -7.4152e-20    1     
+    URI_3          -5.6691e-13    1.1109e+07    -5.1033e-20    1     
+    URL_1          -3.6151e-13    6.9866e+06    -5.1743e-20    1     
+    URL_3           2.0771e-12     2.504e+07     8.2952e-20    1     
+    URL_4           7.7705e-13    1.1226e+07     6.9221e-20    1     
+    USERAGENT_1    -1.4677e-12    1.6431e+07    -8.9323e-20    1     
+    USERAGENT_2    -1.1635e-12    1.6617e+07    -7.0017e-20    1     
+    USERAGENT_3    -3.1252e-13    1.5355e+07    -2.0353e-20    1     
+    USERAGENT_4    -1.0855e-12    1.5345e+07     -7.074e-20    1     
+    COOKIE_1       -1.6037e-13    6.5246e+06     -2.458e-20    1     
+    BROWSER_1      -4.1545e-13    3.3777e+07      -1.23e-20    1     
+    BROWSER_2      -1.1886e-13    2.7207e+07    -4.3687e-21    1     
+    BROWSER_3      -1.2826e-12    2.7166e+07    -4.7213e-20    1     
+    BROWSER_4      -1.2165e-12    3.7955e+07    -3.2052e-20    1     
+    BROWSER_5      -8.9952e-13     2.676e+07    -3.3614e-20    1     
+    BROWSER_6      -1.2142e-12    2.6629e+07    -4.5595e-20    1     
+    BROWSER_7      -1.3054e-12    3.4511e+07    -3.7826e-20    1     
+    MSTATUS         3.5319e-15    1.8727e+05      1.886e-20    1     
+
+
+556 observations, 534 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 0, p-value = 1
+
+RegLog05J1 = 
+
+
+Generalized Linear regression model:
+    logit(LSTATUS) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER
+    Distribution = Binomial
+
+Estimated Coefficients:
+                   Estimate        SE           tStat       pValue 
+                   ________    __________    ___________    _______
+
+    (Intercept)     -87.874    1.5496e+07    -5.6706e-06          1
+    METODO_1       -0.20666        1.0858       -0.19032    0.84906
+    METODO_2        0.19055       0.68499        0.27818    0.78088
+    URI_1           0.59068       0.85976        0.68703    0.49206
+    URI_2           0.70104       0.80275        0.87331     0.3825
+    URI_3           0.34729       0.82465        0.42114    0.67366
+    URL_1          -0.17934        0.4705       -0.38116    0.70308
+    URL_3           -85.375    2.3796e+07    -3.5879e-06          1
+    URL_4           -88.309     8.886e+06     -9.938e-06    0.99999
+    USERAGENT_1      52.561    1.2261e+07      4.287e-06          1
+    USERAGENT_2     -35.906    1.4135e+07    -2.5402e-06          1
+    USERAGENT_3       55.42    1.2261e+07     4.5201e-06          1
+    USERAGENT_4      55.037    1.2261e+07      4.489e-06          1
+    COOKIE_1       -0.41861       0.46411       -0.90196    0.36708
+    BROWSER_1        31.439    1.5415e+07     2.0394e-06          1
+    BROWSER_2        31.191    1.5415e+07     2.0234e-06          1
+    BROWSER_3        29.761    1.5415e+07     1.9306e-06          1
+    BROWSER_4       -65.281    3.3389e+07    -1.9552e-06          1
+    BROWSER_5        29.701    1.5415e+07     1.9267e-06          1
+    BROWSER_6        30.066    1.5415e+07     1.9504e-06          1
+    BROWSER_7       -51.769    2.6311e+07    -1.9676e-06          1
+
+
+577 observations, 556 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 47.3, p-value = 0.000535
+
+RegLog05J2 = 
+
+
+Generalized Linear regression model:
+    logit(LREGRA) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER + MSTATUS
+    Distribution = Binomial
+
+Estimated Coefficients:
+                    Estimate          SE           tStat       pValue
+                   ___________    __________    ___________    ______
+
+    (Intercept)        -102.57    2.1871e+07    -4.6896e-06    1     
+    METODO_1        2.0874e-12    1.5179e+07     1.3752e-19    1     
+    METODO_2        5.8717e-12    1.1441e+07     5.1319e-19    1     
+    URI_1          -8.7356e-13    1.1797e+07    -7.4052e-20    1     
+    URI_2          -2.9904e-12    1.0711e+07    -2.7918e-19    1     
+    URI_3          -4.6961e-13    1.0994e+07    -4.2716e-20    1     
+    URL_1          -6.3186e-14    6.9578e+06    -9.0814e-21    1     
+    URL_3           4.3438e-12    2.4993e+07      1.738e-19    1     
+    URL_4           3.6266e-13    1.0411e+07     3.4833e-20    1     
+    USERAGENT_1    -1.2542e-13    1.5492e+07    -8.0954e-21    1     
+    USERAGENT_2    -5.6795e-13    1.5717e+07    -3.6136e-20    1     
+    USERAGENT_3    -9.8107e-13    1.4858e+07     -6.603e-20    1     
+    USERAGENT_4    -1.1903e-12    1.4562e+07     -8.174e-20    1     
+    COOKIE_1        4.7362e-13    6.4602e+06     7.3314e-20    1     
+    BROWSER_1        3.301e-12    3.6151e+07     9.1311e-20    1     
+    BROWSER_2      -3.5779e-13     2.315e+07    -1.5455e-20    1     
+    BROWSER_3       6.1136e-13     2.293e+07     2.6662e-20    1     
+    BROWSER_4       8.9691e-13    3.7033e+07     2.4219e-20    1     
+    BROWSER_5       5.2386e-13    2.2629e+07      2.315e-20    1     
+    BROWSER_6       5.8235e-13     2.248e+07     2.5905e-20    1     
+    BROWSER_7      -5.5683e-14    3.1406e+07     -1.773e-21    1     
+    MSTATUS         1.9131e-15    1.8822e+05     1.0164e-20    1     
+
+
+577 observations, 555 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 0, p-value = 1
+
+RegLog05K1 = 
+
+
+Generalized Linear regression model:
+    logit(LSTATUS) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER
+    Distribution = Binomial
+
+Estimated Coefficients:
+                   Estimate        SE           tStat       pValue 
+                   ________    __________    ___________    _______
+
+    (Intercept)     -112.59    1.6735e+07    -6.7275e-06    0.99999
+    METODO_1        -94.338    1.5125e+07    -6.2374e-06          1
+    METODO_2         -0.301           0.8       -0.37625    0.70673
+    URI_1          -0.40989       0.80426       -0.50965     0.6103
+    URI_2          -0.13663       0.70278       -0.19442    0.84585
+    URI_3          -0.35117       0.74082       -0.47403    0.63548
+    URL_1          -0.13839       0.48524       -0.28519     0.7755
+    URL_3            -92.93    2.2433e+07    -4.1426e-06          1
+    URL_4           -94.477    9.3035e+06    -1.0155e-05    0.99999
+    USERAGENT_1       77.02    1.1502e+07      6.696e-06    0.99999
+    USERAGENT_2      76.518    1.1502e+07     6.6524e-06    0.99999
+    USERAGENT_3      77.705    1.1502e+07     6.7556e-06    0.99999
+    USERAGENT_4      77.549    1.1502e+07      6.742e-06    0.99999
+    COOKIE_1       -0.22371       0.48239       -0.46375    0.64283
+    BROWSER_1       -67.223    3.2889e+07    -2.0439e-06          1
+    BROWSER_2        32.474    1.8196e+07     1.7847e-06          1
+    BROWSER_3        32.723    1.8196e+07     1.7984e-06          1
+    BROWSER_4        -45.21    3.4775e+07    -1.3001e-06          1
+    BROWSER_5        32.815    1.8196e+07     1.8034e-06          1
+    BROWSER_6        32.935    1.8196e+07       1.81e-06          1
+    BROWSER_7       -66.831    2.7955e+07    -2.3907e-06          1
+
+
+596 observations, 575 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 18, p-value = 0.588
+
+RegLog05K2 = 
+
+
+Generalized Linear regression model:
+    logit(LREGRA) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER + MSTATUS
+    Distribution = Binomial
+
+Estimated Coefficients:
+                    Estimate          SE           tStat       pValue
+                   ___________    __________    ___________    ______
+
+    (Intercept)        -102.57    2.0532e+07    -4.9954e-06    1     
+    METODO_1        5.7475e-12    1.5939e+07     3.6059e-19    1     
+    METODO_2       -3.7153e-13    1.0472e+07    -3.5479e-20    1     
+    URI_1          -2.7465e-12    1.1887e+07    -2.3105e-19    1     
+    URI_2          -9.6106e-13    1.0884e+07    -8.8301e-20    1     
+    URI_3          -3.4843e-12    1.1135e+07    -3.1291e-19    1     
+    URL_1           8.9876e-15    6.8252e+06     1.3168e-21    1     
+    URL_3           1.0189e-12    2.3451e+07     4.3447e-20    1     
+    URL_4           8.1236e-14    1.0801e+07     7.5211e-21    1     
+    USERAGENT_1     7.9765e-13    1.3728e+07     5.8106e-20    1     
+    USERAGENT_2     2.7439e-12    1.4137e+07     1.9409e-19    1     
+    USERAGENT_3     4.4986e-13    1.3407e+07     3.3554e-20    1     
+    USERAGENT_4     3.7765e-14    1.2917e+07     2.9237e-21    1     
+    COOKIE_1       -4.1423e-14    6.2228e+06    -6.6567e-21    1     
+    BROWSER_1      -5.6256e-13    3.3929e+07     -1.658e-20    1     
+    BROWSER_2       -1.136e-12    1.9593e+07    -5.7979e-20    1     
+    BROWSER_3       2.4083e-13    1.9824e+07     1.2148e-20    1     
+    BROWSER_4       -7.993e-13    3.5239e+07    -2.2683e-20    1     
+    BROWSER_5       1.8593e-13    1.9294e+07     9.6366e-21    1     
+    BROWSER_6      -3.9133e-13    1.8876e+07    -2.0732e-20    1     
+    BROWSER_7      -8.4796e-15     2.874e+07    -2.9504e-22    1     
+    MSTATUS        -1.7103e-15    1.9117e+05    -8.9468e-21    1     
+
+
+596 observations, 574 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 0, p-value = 1
+
+RegLog05L1 = 
+
+
+Generalized Linear regression model:
+    logit(LSTATUS) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER
+    Distribution = Binomial
+
+Estimated Coefficients:
+                   Estimate         SE           tStat       pValue 
+                   _________    __________    ___________    _______
+
+    (Intercept)      -111.58    1.6835e+07    -6.6279e-06    0.99999
+    METODO_1         -96.001    1.6786e+07    -5.7192e-06          1
+    METODO_2         0.21962       0.81481        0.26953    0.78752
+    METODO_5         -101.12    6.7109e+07    -1.5068e-06          1
+    URI_1           -0.43745       0.73076       -0.59863    0.54942
+    URI_2          -0.019158       0.63879      -0.029992    0.97607
+    URI_3           -0.42597       0.67803       -0.62824    0.52985
+    URL_1            0.86171       0.51104         1.6862    0.09176
+    URL_3            -98.649    2.3727e+07    -4.1577e-06          1
+    URL_4            -95.563    8.5558e+06    -1.1169e-05    0.99999
+    USERAGENT_1        75.39    1.2222e+07     6.1682e-06          1
+    USERAGENT_2       75.229    1.2222e+07      6.155e-06          1
+    USERAGENT_3       75.781    1.2222e+07     6.2002e-06          1
+    USERAGENT_4        75.87    1.2222e+07     6.2074e-06          1
+    COOKIE_1         0.17341       0.47444        0.36551    0.71473
+    BROWSER_1        -67.416    4.3016e+07    -1.5672e-06          1
+    BROWSER_2         32.609    1.8686e+07     1.7451e-06          1
+    BROWSER_3         32.806    1.8686e+07     1.7556e-06          1
+    BROWSER_4         8.5782    6.9188e+07     1.2398e-07          1
+    BROWSER_5          33.49    1.8686e+07     1.7923e-06          1
+    BROWSER_6         32.278    1.8686e+07     1.7274e-06          1
+    BROWSER_7         -67.57    3.0201e+07    -2.2373e-06          1
+
+
+556 observations, 534 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 28.8, p-value = 0.118
+
+RegLog05L2 = 
+
+
+Generalized Linear regression model:
+    logit(LREGRA) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER + MSTATUS
+    Distribution = Binomial
+
+Estimated Coefficients:
+                    Estimate          SE           tStat       pValue
+                   ___________    __________    ___________    ______
+
+    (Intercept)        -102.57    2.1262e+07     -4.824e-06    1     
+    METODO_1       -1.9667e-12    1.7408e+07    -1.1298e-19    1     
+    METODO_2         3.432e-12    1.1773e+07     2.9152e-19    1     
+    METODO_5       -1.6529e-11    6.8139e+07    -2.4258e-19    1     
+    URI_1           -1.655e-12    1.1824e+07    -1.3996e-19    1     
+    URI_2          -2.8252e-13    1.0741e+07    -2.6304e-20    1     
+    URI_3            6.479e-13    1.0917e+07     5.9348e-20    1     
+    URL_1           8.2645e-13     7.257e+06     1.1388e-19    1     
+    URL_3           1.6294e-12    2.4885e+07     6.5478e-20    1     
+    URL_4           1.2575e-12    1.0196e+07     1.2333e-19    1     
+    USERAGENT_1    -1.0319e-12    1.4599e+07    -7.0684e-20    1     
+    USERAGENT_2    -2.2154e-13    1.5226e+07     -1.455e-20    1     
+    USERAGENT_3    -3.6259e-13    1.4235e+07    -2.5472e-20    1     
+    USERAGENT_4      -1.98e-13    1.3834e+07    -1.4312e-20    1     
+    COOKIE_1       -1.7731e-13    6.4697e+06    -2.7407e-20    1     
+    BROWSER_1      -4.7022e-12     4.448e+07    -1.0571e-19    1     
+    BROWSER_2      -1.4958e-13    2.1435e+07    -6.9784e-21    1     
+    BROWSER_3      -3.4707e-13     2.137e+07    -1.6241e-20    1     
+    BROWSER_4       3.8677e-13    6.9658e+07     5.5525e-21    1     
+    BROWSER_5      -5.6433e-13    2.1133e+07    -2.6704e-20    1     
+    BROWSER_6      -8.8059e-13    2.0537e+07    -4.2878e-20    1     
+    BROWSER_7      -9.3071e-13    3.1827e+07    -2.9243e-20    1     
+    MSTATUS        -1.0803e-14    1.7033e+05    -6.3422e-20    1     
+
+
+556 observations, 533 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 0, p-value = 1
+
+RegLog21A1 = 
+
+
+Generalized Linear regression model:
+    logit(LSTATUS) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER
+    Distribution = Binomial
+
+Estimated Coefficients:
+                   Estimate        SE           tStat       pValue 
+                   ________    __________    ___________    _______
+
+    (Intercept)     -135.72    1.8025e+07      -7.53e-06    0.99999
+    METODO_1         -99.67    2.0234e+07    -4.9258e-06          1
+    METODO_2        0.50472        1.1853        0.42583    0.67023
+    URI_1           -1.1256       0.91155        -1.2348    0.21691
+    URI_2          -0.28638       0.68005       -0.42112    0.67367
+    URI_3           -1.1684       0.81431        -1.4349    0.15133
+    URL_1            0.7965       0.72952         1.0918    0.27491
+    URL_3           -97.492    2.1222e+07     -4.594e-06          1
+    URL_4          -0.49042        1.2015       -0.40818    0.68314
+    USERAGENT_1      86.892    1.2524e+07     6.9383e-06    0.99999
+    USERAGENT_2      86.529    1.2524e+07     6.9092e-06    0.99999
+    USERAGENT_3       86.67    1.2524e+07     6.9205e-06    0.99999
+    USERAGENT_4      86.803    1.2524e+07     6.9311e-06    0.99999
+    COOKIE_1       -0.93416       0.69564        -1.3429    0.17931
+    BROWSER_1       -53.647    4.4024e+07    -1.2186e-06          1
+    BROWSER_2        46.261    2.0903e+07     2.2132e-06          1
+    BROWSER_3        46.642    2.0903e+07     2.2314e-06          1
+    BROWSER_4       -25.704    3.8309e+07    -6.7096e-07          1
+    BROWSER_5        46.776    2.0903e+07     2.2378e-06          1
+    BROWSER_6            45    2.0903e+07     2.1529e-06          1
+    BROWSER_7       -53.811    3.2868e+07    -1.6372e-06          1
+
+
+548 observations, 527 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 23, p-value = 0.29
+
+RegLog21A2 = 
+
+
+Generalized Linear regression model:
+    logit(LREGRA) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER + MSTATUS
+    Distribution = Binomial
+
+Estimated Coefficients:
+                    Estimate          SE           tStat       pValue
+                   ___________    __________    ___________    ______
+
+    (Intercept)        -102.57    2.1391e+07    -4.7947e-06    1     
+    METODO_1       -1.3851e-13    2.0822e+07     -6.652e-21    1     
+    METODO_2       -1.6685e-12    1.1298e+07    -1.4768e-19    1     
+    URI_1           1.9134e-12    1.1624e+07     1.6461e-19    1     
+    URI_2           3.5574e-12    1.0313e+07     3.4493e-19    1     
+    URI_3           1.1831e-12    1.0607e+07     1.1155e-19    1     
+    URL_1            3.284e-13    7.2393e+06     4.5363e-20    1     
+    URL_3          -1.2979e-12    2.2457e+07    -5.7795e-20    1     
+    URL_4           6.6871e-13    1.0305e+07     6.4891e-20    1     
+    USERAGENT_1     5.4664e-13    1.5169e+07     3.6037e-20    1     
+    USERAGENT_2     8.5604e-13    1.5703e+07     5.4513e-20    1     
+    USERAGENT_3     3.6154e-13    1.4255e+07     2.5362e-20    1     
+    USERAGENT_4      5.509e-13    1.4134e+07     3.8976e-20    1     
+    COOKIE_1        3.0714e-13    6.5634e+06     4.6797e-20    1     
+    BROWSER_1      -1.5745e-12    4.4808e+07     -3.514e-20    1     
+    BROWSER_2      -1.9865e-12    2.2476e+07    -8.8386e-20    1     
+    BROWSER_3      -2.5997e-12    2.2062e+07    -1.1784e-19    1     
+    BROWSER_4      -3.1615e-12    3.8596e+07    -8.1913e-20    1     
+    BROWSER_5      -2.6089e-12    2.1932e+07    -1.1895e-19    1     
+    BROWSER_6      -2.5341e-12    2.1644e+07    -1.1708e-19    1     
+    BROWSER_7       -4.892e-13    3.3708e+07    -1.4513e-20    1     
+    MSTATUS         5.8097e-15    2.2396e+05      2.594e-20    1     
+
+
+548 observations, 526 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 0, p-value = 1
+
+RegLog21B1 = 
+
+
+Generalized Linear regression model:
+    logit(LSTATUS) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER
+    Distribution = Binomial
+
+Estimated Coefficients:
+                   Estimate        SE           tStat       pValue 
+                   ________    __________    ___________    _______
+
+    (Intercept)     -110.06    2.0945e+07    -5.2547e-06          1
+    METODO_1        -86.949    1.5921e+07    -5.4613e-06          1
+    METODO_2       -0.32064         1.101       -0.29122    0.77088
+    METODO_5         -100.7    6.7109e+07    -1.5005e-06          1
+    URI_1           -1.6569        1.2129        -1.3661    0.17191
+    URI_2          -0.39364       0.76726       -0.51305    0.60792
+    URI_3          -0.23976        0.7517       -0.31896    0.74976
+    URL_1           0.43044        0.5884        0.73154    0.46445
+    URL_3           -99.059    2.7397e+07    -3.6157e-06          1
+    URL_4           -87.417    1.1004e+07    -7.9442e-06    0.99999
+    USERAGENT_1       75.33      1.37e+07     5.4987e-06          1
+    USERAGENT_2     -15.072    1.5929e+07    -9.4622e-07          1
+    USERAGENT_3      74.877      1.37e+07     5.4656e-06          1
+    USERAGENT_4      75.306      1.37e+07      5.497e-06          1
+    COOKIE_1       -0.10504       0.58875       -0.17841     0.8584
+    BROWSER_1       -66.887    7.0679e+07    -9.4634e-07          1
+    BROWSER_2        32.208    2.2181e+07      1.452e-06          1
+    BROWSER_3        33.096    2.2181e+07     1.4921e-06          1
+    BROWSER_4       -45.821    5.1674e+07    -8.8673e-07          1
+    BROWSER_5        32.882    2.2181e+07     1.4825e-06          1
+    BROWSER_6        31.163    2.2181e+07      1.405e-06          1
+    BROWSER_7       -67.807     3.525e+07    -1.9236e-06          1
+
+
+467 observations, 445 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 25.3, p-value = 0.233
+
+RegLog21B2 = 
+
+
+Generalized Linear regression model:
+    logit(LREGRA) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER + MSTATUS
+    Distribution = Binomial
+
+Estimated Coefficients:
+                    Estimate          SE           tStat       pValue
+                   ___________    __________    ___________    ______
+
+    (Intercept)        -102.57    2.6875e+07    -3.8165e-06    1     
+    METODO_1       -3.1896e-12     1.668e+07    -1.9122e-19    1     
+    METODO_2       -6.7222e-13      1.35e+07    -4.9792e-20    1     
+    METODO_5        9.8993e-13    6.8157e+07     1.4524e-20    1     
+    URI_1          -5.7439e-13    1.2892e+07    -4.4552e-20    1     
+    URI_2           -6.059e-13    1.1253e+07    -5.3842e-20    1     
+    URI_3          -2.1926e-12    1.1455e+07    -1.9141e-19    1     
+    URL_1           2.2521e-13    7.7341e+06     2.9119e-20    1     
+    URL_3           8.2757e-12    2.8654e+07     2.8881e-19    1     
+    URL_4           1.8114e-13    1.2408e+07     1.4599e-20    1     
+    USERAGENT_1    -9.0953e-13    1.7407e+07     -5.225e-20    1     
+    USERAGENT_2     -7.883e-13    1.7436e+07    -4.5211e-20    1     
+    USERAGENT_3    -1.7886e-13    1.5887e+07    -1.1259e-20    1     
+    USERAGENT_4    -1.0894e-13    1.6098e+07    -6.7672e-21    1     
+    COOKIE_1        1.0855e-13    7.1801e+06     1.5118e-20    1     
+    BROWSER_1       4.5615e-13    7.2855e+07     6.2611e-21    1     
+    BROWSER_2       3.5214e-13    2.8439e+07     1.2382e-20    1     
+    BROWSER_3      -4.2711e-13    2.7874e+07    -1.5323e-20    1     
+    BROWSER_4      -4.4923e-12    5.3716e+07    -8.3631e-20    1     
+    BROWSER_5      -2.9328e-13    2.7825e+07     -1.054e-20    1     
+    BROWSER_6       1.8972e-13    2.7472e+07     6.9062e-21    1     
+    BROWSER_7       9.9638e-14    3.9392e+07     2.5294e-21    1     
+    MSTATUS        -2.2858e-15    2.2488e+05    -1.0164e-20    1     
+
+
+467 observations, 444 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 0, p-value = 1
+
+RegLog21C1 = 
+
+
+Generalized Linear regression model:
+    logit(LSTATUS) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER
+    Distribution = Binomial
+
+Estimated Coefficients:
+                   Estimate        SE           tStat       pValue 
+                   ________    __________    ___________    _______
+
+    (Intercept)     -1.1943        1.4005       -0.85279    0.39378
+    METODO_1        -90.709    2.5456e+07    -3.5634e-06          1
+    METODO_2         1.0581       0.88604         1.1942    0.23239
+    URI_1            -0.225       0.90443       -0.24877    0.80354
+    URI_2          -0.46505       0.80173       -0.58006    0.56187
+    URI_3          -0.70716       0.81626       -0.86634     0.3863
+    URL_1           0.02859       0.63105       0.045306    0.96386
+    URL_3           -99.415    3.0012e+07    -3.3125e-06          1
+    URL_4           -96.462     1.506e+07    -6.4052e-06    0.99999
+    USERAGENT_1      104.08    1.7936e+07     5.8029e-06          1
+    USERAGENT_2      104.03    1.7936e+07        5.8e-06          1
+    USERAGENT_3      104.56    1.7936e+07     5.8297e-06          1
+    USERAGENT_4      104.86    1.7936e+07     5.8467e-06          1
+    COOKIE_1       -0.11279        0.6509       -0.17328    0.86243
+    BROWSER_1       -205.35    6.9464e+07    -2.9562e-06          1
+    BROWSER_2          -106    1.7936e+07    -5.9102e-06          1
+    BROWSER_3       -105.32    1.7936e+07    -5.8719e-06          1
+    BROWSER_4        -205.8     5.073e+07    -4.0568e-06          1
+    BROWSER_5       -105.34    1.7936e+07    -5.8732e-06          1
+    BROWSER_6       -106.58    1.7936e+07    -5.9421e-06          1
+    BROWSER_7       -205.32    3.4963e+07    -5.8726e-06          1
+
+
+353 observations, 332 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 14.1, p-value = 0.827
+
+RegLog21C2 = 
+
+
+Generalized Linear regression model:
+    logit(LREGRA) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER + MSTATUS
+    Distribution = Binomial
+
+Estimated Coefficients:
+                    Estimate          SE           tStat       pValue
+                   ___________    __________    ___________    ______
+
+    (Intercept)        -102.57    3.1094e+07    -3.2986e-06    1     
+    METODO_1       -4.5472e-12    2.6347e+07    -1.7259e-19    1     
+    METODO_2       -3.3712e-12    1.4941e+07    -2.2563e-19    1     
+    URI_1           4.3371e-13    1.4875e+07     2.9156e-20    1     
+    URI_2          -2.5126e-12    1.3097e+07    -1.9185e-19    1     
+    URI_3          -2.4462e-12    1.3028e+07    -1.8776e-19    1     
+    URL_1          -6.0051e-13    9.2788e+06    -6.4718e-20    1     
+    URL_3          -4.6493e-13    3.1905e+07    -1.4572e-20    1     
+    URL_4          -1.8685e-12    1.7183e+07    -1.0874e-19    1     
+    USERAGENT_1    -1.0321e-12    2.1947e+07    -4.7027e-20    1     
+    USERAGENT_2    -9.6201e-13    2.1837e+07    -4.4053e-20    1     
+    USERAGENT_3    -8.9715e-13    1.9945e+07     -4.498e-20    1     
+    USERAGENT_4    -4.5234e-13    2.0426e+07    -2.2145e-20    1     
+    COOKIE_1       -1.5359e-13    8.9486e+06    -1.7164e-20    1     
+    BROWSER_1      -3.0064e-13    7.5761e+07    -3.9683e-21    1     
+    BROWSER_2       5.8304e-13    3.5127e+07     1.6598e-20    1     
+    BROWSER_3       7.0168e-13    3.4118e+07     2.0567e-20    1     
+    BROWSER_4         1.29e-12    5.9233e+07     2.1779e-20    1     
+    BROWSER_5        1.259e-12    3.4169e+07     3.6845e-20    1     
+    BROWSER_6       1.5229e-12    3.4295e+07     4.4406e-20    1     
+    BROWSER_7       2.3967e-12    4.6435e+07     5.1614e-20    1     
+    MSTATUS         1.7659e-14    2.0439e+05     8.6397e-20    1     
+
+
+353 observations, 331 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 0, p-value = 1
+
+RegLog21D1 = 
+
+
+Generalized Linear regression model:
+    logit(LSTATUS) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER
+    Distribution = Binomial
+
+Estimated Coefficients:
+                   Estimate        SE           tStat       pValue 
+                   ________    __________    ___________    _______
+
+    (Intercept)    -0.70685        1.4038       -0.50351     0.6146
+    METODO_1        -77.436    2.7599e+07    -2.8057e-06          1
+    METODO_2        0.27682        1.1772        0.23516    0.81408
+    URI_1           -1.5453        1.2197        -1.2669    0.20519
+    URI_2          -0.65131       0.78069       -0.83427    0.40413
+    URI_3          -0.79485       0.79266        -1.0028    0.31597
+    URL_1            0.0386       0.70554        0.05471    0.95637
+    URL_3           -99.245    3.8745e+07    -2.5615e-06          1
+    URL_4           -93.852    1.4335e+07    -6.5471e-06    0.99999
+    USERAGENT_1      101.12    1.7425e+07     5.8035e-06          1
+    USERAGENT_2       5.108      1.99e+07     2.5668e-07          1
+    USERAGENT_3      99.651    1.7425e+07     5.7189e-06          1
+    USERAGENT_4      100.44    1.7425e+07     5.7639e-06          1
+    COOKIE_1       -0.82324       0.74546        -1.1043    0.26945
+    BROWSER_1       -200.53    5.0551e+07    -3.9669e-06          1
+    BROWSER_2       -101.34    1.7425e+07    -5.8156e-06          1
+    BROWSER_3       -101.28    1.7425e+07    -5.8123e-06          1
+    BROWSER_5       -100.38    1.7425e+07    -5.7607e-06          1
+    BROWSER_6       -103.28    1.7425e+07    -5.9272e-06          1
+    BROWSER_7       -201.33    3.7809e+07     -5.325e-06          1
+
+
+321 observations, 301 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 26.8, p-value = 0.11
+
+RegLog21D2 = 
+
+
+Generalized Linear regression model:
+    logit(LREGRA) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER + MSTATUS
+    Distribution = Binomial
+
+Estimated Coefficients:
+                    Estimate          SE           tStat       pValue
+                   ___________    __________    ___________    ______
+
+    (Intercept)        -102.57    2.8148e+07    -3.6439e-06    1     
+    METODO_1        4.7682e-12     2.861e+07     1.6666e-19    1     
+    METODO_2        1.6156e-12    1.5329e+07      1.054e-19    1     
+    URI_1          -5.2067e-14    1.6704e+07    -3.1171e-21    1     
+    URI_2          -4.5329e-13    1.3579e+07    -3.3381e-20    1     
+    URI_3           8.2784e-13    1.3631e+07      6.073e-20    1     
+    URL_1          -3.0118e-13    9.7882e+06     -3.077e-20    1     
+    URL_3            2.259e-12     4.011e+07      5.632e-20    1     
+    URL_4           9.0873e-13    1.6265e+07     5.5872e-20    1     
+    USERAGENT_1     7.0024e-13    2.3163e+07     3.0231e-20    1     
+    USERAGENT_2     5.9274e-13     2.322e+07     2.5527e-20    1     
+    USERAGENT_3     5.1079e-13     1.969e+07     2.5941e-20    1     
+    USERAGENT_4     3.7519e-13    2.1362e+07     1.7563e-20    1     
+    COOKIE_1       -7.7582e-13    9.1632e+06    -8.4667e-20    1     
+    BROWSER_1       8.1269e-13    5.7158e+07     1.4218e-20    1     
+    BROWSER_2        3.287e-13    3.3369e+07     9.8503e-21    1     
+    BROWSER_3      -5.1828e-13    3.0794e+07     -1.683e-20    1     
+    BROWSER_5      -7.8576e-13     3.135e+07    -2.5064e-20    1     
+    BROWSER_6      -5.9855e-13    3.2388e+07    -1.8481e-20    1     
+    BROWSER_7      -2.9017e-13    4.7562e+07    -6.1008e-21    1     
+    MSTATUS        -8.4711e-15    2.0727e+05    -4.0869e-20    1     
+
+
+321 observations, 300 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 0, p-value = 1
+
+RegLog21E1 = 
+
+
+Generalized Linear regression model:
+    logit(LSTATUS) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER
+    Distribution = Binomial
+
+Estimated Coefficients:
+                   Estimate        SE           tStat       pValue 
+                   ________    __________    ___________    _______
+
+    (Intercept)     -95.325    1.6764e+07    -5.6863e-06          1
+    METODO_1        0.50205        1.2034         0.4172    0.67653
+    METODO_2        0.32515        1.1593        0.28047    0.77912
+    URI_1           -98.142    8.4209e+06    -1.1655e-05    0.99999
+    URI_2          0.080996       0.75265        0.10761     0.9143
+    URI_3          -0.35467       0.80586       -0.44011    0.65985
+    URL_1           0.86849       0.81942         1.0599     0.2892
+    URL_3           -99.128    3.3554e+07    -2.9542e-06          1
+    URL_4           -94.865    1.1451e+07    -8.2847e-06    0.99999
+    USERAGENT_1       60.69    1.1582e+07     5.2403e-06          1
+    USERAGENT_2      60.745    1.1582e+07      5.245e-06          1
+    USERAGENT_3      60.574    1.1582e+07     5.2302e-06          1
+    USERAGENT_4       60.68    1.1582e+07     5.2394e-06          1
+    COOKIE_1        -1.1325       0.81442        -1.3905    0.16437
+    BROWSER_1       -68.213    3.7411e+07    -1.8234e-06          1
+    BROWSER_2        31.432    1.6543e+07        1.9e-06          1
+    BROWSER_3        32.032    1.6543e+07     1.9363e-06          1
+    BROWSER_4       -58.583    4.1803e+07    -1.4014e-06          1
+    BROWSER_5        32.349    1.6543e+07     1.9554e-06          1
+    BROWSER_6        31.061    1.6543e+07     1.8776e-06          1
+    BROWSER_7       -68.385    2.7822e+07     -2.458e-06          1
+
+
+435 observations, 414 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 28.5, p-value = 0.0977
+
+RegLog21E2 = 
+
+
+Generalized Linear regression model:
+    logit(LREGRA) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER + MSTATUS
+    Distribution = Binomial
+
+Estimated Coefficients:
+                    Estimate          SE           tStat       pValue
+                   ___________    __________    ___________    ______
+
+    (Intercept)        -102.57    2.5085e+07    -4.0887e-06    1     
+    METODO_1        1.2577e-12    2.3159e+07     5.4309e-20    1     
+    METODO_2        -1.655e-12    1.2999e+07    -1.2731e-19    1     
+    URI_1           8.3299e-13    1.3817e+07     6.0287e-20    1     
+    URI_2           2.2319e-12    1.2066e+07     1.8498e-19    1     
+    URI_3           4.8804e-12    1.2488e+07     3.9081e-19    1     
+    URL_1          -7.7004e-13    8.4969e+06    -9.0627e-20    1     
+    URL_3          -1.7596e-11    3.4593e+07    -5.0864e-19    1     
+    URL_4           8.6799e-13    1.3254e+07     6.5487e-20    1     
+    USERAGENT_1     2.8984e-13    1.5556e+07     1.8632e-20    1     
+    USERAGENT_2    -3.7284e-14    1.5828e+07    -2.3556e-21    1     
+    USERAGENT_3     1.7396e-13     1.437e+07     1.2106e-20    1     
+    USERAGENT_4    -2.2639e-13    1.4327e+07    -1.5801e-20    1     
+    COOKIE_1       -3.8878e-13    7.8811e+06    -4.9331e-20    1     
+    BROWSER_1       1.4404e-12    4.2188e+07     3.4142e-20    1     
+    BROWSER_2       2.0223e-12    2.5684e+07     7.8738e-20    1     
+    BROWSER_3       1.7139e-12    2.5197e+07      6.802e-20    1     
+    BROWSER_4       2.6158e-12    4.5311e+07     5.7729e-20    1     
+    BROWSER_5       2.1563e-12    2.4907e+07     8.6574e-20    1     
+    BROWSER_6       2.0301e-12    2.4682e+07     8.2249e-20    1     
+    BROWSER_7       4.9999e-12    3.3939e+07     1.4732e-19    1     
+    MSTATUS        -8.7539e-15    2.1531e+05    -4.0658e-20    1     
+
+
+435 observations, 413 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 0, p-value = 1
+
+RegLog21F1 = 
+
+
+Generalized Linear regression model:
+    logit(LSTATUS) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER
+    Distribution = Binomial
+
+Estimated Coefficients:
+                   Estimate        SE           tStat        pValue 
+                   ________    __________    ___________    ________
+
+    (Intercept)     -98.882    1.4939e+07     -6.619e-06     0.99999
+    METODO_1         0.6351         1.249        0.50848     0.61111
+    METODO_2         0.7475        1.1987        0.62359      0.5329
+    URI_1           -2.1439        1.1807        -1.8158    0.069398
+    URI_2          -0.24177       0.70416       -0.34334     0.73134
+    URI_3          -0.92869        0.7836        -1.1852     0.23595
+    URL_1            1.5729       0.79031         1.9903     0.04656
+    URL_3           -98.362    2.7397e+07    -3.5902e-06           1
+    URL_4           -91.565    1.0044e+07    -9.1165e-06     0.99999
+    USERAGENT_1       64.88    1.1227e+07     5.7788e-06           1
+    USERAGENT_2     -28.365    1.4002e+07    -2.0257e-06           1
+    USERAGENT_3       64.46    1.1227e+07     5.7414e-06           1
+    USERAGENT_4      64.618    1.1227e+07     5.7554e-06           1
+    COOKIE_1       -0.59907       0.64094       -0.93468     0.34995
+    BROWSER_1        31.711    1.4513e+07      2.185e-06           1
+    BROWSER_2         29.35    1.4513e+07     2.0223e-06           1
+    BROWSER_3        32.105    1.4513e+07     2.2122e-06           1
+    BROWSER_4       -61.354    3.6277e+07    -1.6913e-06           1
+    BROWSER_5        31.423    1.4513e+07     2.1651e-06           1
+    BROWSER_6        30.438    1.4513e+07     2.0973e-06           1
+    BROWSER_7       -52.536    2.5007e+07    -2.1008e-06           1
+
+
+529 observations, 508 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 41.9, p-value = 0.00286
+
+RegLog21F2 = 
+
+
+Generalized Linear regression model:
+    logit(LREGRA) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER + MSTATUS
+    Distribution = Binomial
+
+Estimated Coefficients:
+                    Estimate          SE           tStat       pValue
+                   ___________    __________    ___________    ______
+
+    (Intercept)        -102.57    2.2373e+07    -4.5843e-06    1     
+    METODO_1        6.9021e-13    2.1042e+07     3.2801e-20    1     
+    METODO_2        4.4092e-12    1.1979e+07     3.6807e-19    1     
+    URI_1          -3.4275e-12    1.2644e+07    -2.7107e-19    1     
+    URI_2          -6.2736e-12    1.1317e+07    -5.5433e-19    1     
+    URI_3          -8.9275e-12    1.1692e+07    -7.6354e-19    1     
+    URL_1           7.3164e-14    7.5149e+06     9.7359e-21    1     
+    URL_3           4.0842e-13    2.8554e+07     1.4303e-20    1     
+    URL_4           7.6887e-13    1.1604e+07     6.6259e-20    1     
+    USERAGENT_1     9.4628e-13    1.4232e+07     6.6491e-20    1     
+    USERAGENT_2    -7.6171e-13    1.5069e+07    -5.0549e-20    1     
+    USERAGENT_3    -5.4778e-13    1.4051e+07    -3.8986e-20    1     
+    USERAGENT_4     9.1575e-14    1.3434e+07     6.8165e-21    1     
+    COOKIE_1        5.6722e-13    6.8247e+06     8.3114e-20    1     
+    BROWSER_1      -1.9926e-12    3.3158e+07    -6.0095e-20    1     
+    BROWSER_2      -5.3774e-13      2.27e+07    -2.3689e-20    1     
+    BROWSER_3      -5.1525e-13    2.2991e+07    -2.2411e-20    1     
+    BROWSER_4      -3.9868e-13    3.9985e+07    -9.9708e-21    1     
+    BROWSER_5      -1.2177e-13    2.2287e+07    -5.4636e-21    1     
+    BROWSER_6      -5.6262e-13    2.1779e+07    -2.5833e-20    1     
+    BROWSER_7      -9.5914e-13    3.0454e+07    -3.1495e-20    1     
+    MSTATUS         -4.712e-15    1.8938e+05    -2.4882e-20    1     
+
+
+529 observations, 507 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 0, p-value = 1
+
+RegLog21G1 = 
+
+
+Generalized Linear regression model:
+    logit(LSTATUS) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER
+    Distribution = Binomial
+
+Estimated Coefficients:
+                   Estimate        SE           tStat        pValue 
+                   ________    __________    ___________    ________
+
+    (Intercept)      -96.72    1.4328e+07    -6.7503e-06     0.99999
+    METODO_1        -94.124    2.1236e+07    -4.4324e-06           1
+    METODO_2       0.042856       0.80254         0.0534     0.95741
+    METODO_3        -5.3406    7.2512e+07    -7.3651e-08           1
+    URI_1          -0.84969       0.86939       -0.97734      0.3284
+    URI_2           0.38934       0.69934        0.55672     0.57772
+    URI_3           0.10561       0.72779        0.14512     0.88462
+    URL_1              1.24       0.50462         2.4572    0.014002
+    URL_3           -98.762    2.3727e+07    -4.1625e-06           1
+    URL_4           -91.963    9.8538e+06    -9.3328e-06     0.99999
+    USERAGENT_1       60.81    1.1655e+07     5.2176e-06           1
+    USERAGENT_2      -32.87    1.3962e+07    -2.3542e-06           1
+    USERAGENT_3      61.283    1.1655e+07     5.2582e-06           1
+    USERAGENT_4        60.8    1.1655e+07     5.2168e-06           1
+    COOKIE_1        0.29585       0.44974        0.65783     0.51065
+    BROWSER_1        32.235    1.4722e+07     2.1895e-06           1
+    BROWSER_2        32.476    1.4722e+07     2.2059e-06           1
+    BROWSER_3        32.453    1.4722e+07     2.2043e-06           1
+    BROWSER_4       -63.418    3.0766e+07    -2.0613e-06           1
+    BROWSER_5        32.092    1.4722e+07     2.1798e-06           1
+    BROWSER_6        31.724    1.4722e+07     2.1548e-06           1
+    BROWSER_7       -49.673    2.5937e+07    -1.9151e-06           1
+
+
+576 observations, 554 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 35.2, p-value = 0.0268
+
+RegLog21G2 = 
+
+
+Generalized Linear regression model:
+    logit(LREGRA) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER + MSTATUS
+    Distribution = Binomial
+
+Estimated Coefficients:
+                    Estimate          SE           tStat       pValue
+                   ___________    __________    ___________    ______
+
+    (Intercept)        -102.57    2.0543e+07    -4.9928e-06    1     
+    METODO_1       -3.7259e-12    2.1948e+07    -1.6976e-19    1     
+    METODO_2       -1.3244e-13    1.1186e+07    -1.1839e-20    1     
+    METODO_3       -2.0862e-11    7.3064e+07    -2.8553e-19    1     
+    URI_1           5.1572e-12    1.1766e+07      4.383e-19    1     
+    URI_2           2.1516e-12    1.0693e+07     2.0121e-19    1     
+    URI_3           3.5134e-12    1.0929e+07     3.2147e-19    1     
+    URL_1             3.01e-13    6.9449e+06     4.3341e-20    1     
+    URL_3          -3.6931e-12    2.4929e+07    -1.4814e-19    1     
+    URL_4           1.1429e-12     1.131e+07     1.0105e-19    1     
+    USERAGENT_1     6.1137e-13    1.4894e+07     4.1048e-20    1     
+    USERAGENT_2     8.0396e-13    1.5251e+07     5.2715e-20    1     
+    USERAGENT_3     1.0276e-12     1.436e+07     7.1561e-20    1     
+    USERAGENT_4     3.5603e-14     1.389e+07     2.5632e-21    1     
+    COOKIE_1        1.8723e-13    6.2344e+06     3.0032e-20    1     
+    BROWSER_1       5.0126e-13    3.2093e+07     1.5619e-20    1     
+    BROWSER_2       9.3606e-13     2.153e+07     4.3476e-20    1     
+    BROWSER_3       2.1384e-13    2.1457e+07      9.966e-21    1     
+    BROWSER_4       1.7955e-12    3.4133e+07     5.2602e-20    1     
+    BROWSER_5       1.0772e-12    2.1128e+07     5.0982e-20    1     
+    BROWSER_6       1.0038e-12    2.0685e+07     4.8526e-20    1     
+    BROWSER_7       7.7553e-13    3.0208e+07     2.5673e-20    1     
+    MSTATUS         7.9562e-15    1.9467e+05     4.0869e-20    1     
+
+
+576 observations, 553 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 0, p-value = 1
+
+RegLog21H1 = 
+
+
+Generalized Linear regression model:
+    logit(LSTATUS) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER
+    Distribution = Binomial
+
+Estimated Coefficients:
+                   Estimate        SE           tStat        pValue 
+                   ________    __________    ___________    ________
+
+    (Intercept)     -1.5004        1.0731        -1.3981     0.16208
+    METODO_1        0.32225       0.84475        0.38147     0.70285
+    METODO_2        0.30631       0.82317        0.37211     0.70981
+    URI_1          -0.28177       0.70882       -0.39752     0.69099
+    URI_2          -0.44066       0.66161       -0.66604     0.50538
+    URI_3          -0.47982       0.67322       -0.71273     0.47602
+    URL_1           0.50916       0.50221         1.0138     0.31066
+    URL_3           -98.795    3.0012e+07    -3.2918e-06           1
+    URL_4             -89.9    9.4745e+06    -9.4887e-06     0.99999
+    USERAGENT_1      1.1137        1.3985         0.7964      0.4258
+    USERAGENT_2     -89.705    7.7016e+06    -1.1648e-05     0.99999
+    USERAGENT_3      1.5988        1.3604         1.1753     0.23989
+    USERAGENT_4      1.5694         1.372         1.1439     0.25267
+    COOKIE_1       -0.45118       0.49543        -0.9107     0.36246
+    BROWSER_1       -102.43    3.0012e+07    -3.4131e-06           1
+    BROWSER_2       -2.3177        1.4523        -1.5958     0.11052
+    BROWSER_3        -1.887         1.449        -1.3023     0.19282
+    BROWSER_4        -102.4    3.0012e+07    -3.4121e-06           1
+    BROWSER_5       -2.2957        1.4279        -1.6077     0.10789
+    BROWSER_6       -3.6881        1.5423        -2.3913    0.016791
+    BROWSER_7       -85.821    2.0343e+07    -4.2187e-06           1
+
+
+562 observations, 541 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 33.7, p-value = 0.0284
+
+RegLog21H2 = 
+
+
+Generalized Linear regression model:
+    logit(LREGRA) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER + MSTATUS
+    Distribution = Binomial
+
+Estimated Coefficients:
+                    Estimate          SE           tStat       pValue
+                   ___________    __________    ___________    ______
+
+    (Intercept)        -102.57    2.1426e+07     -4.787e-06    1     
+    METODO_1        2.4452e-12    1.6292e+07     1.5008e-19    1     
+    METODO_2       -6.4654e-12    1.1487e+07    -5.6284e-19    1     
+    URI_1           3.6961e-13    1.1982e+07     3.0848e-20    1     
+    URI_2           1.0663e-12    1.0965e+07     9.7243e-20    1     
+    URI_3           2.0906e-12    1.1233e+07     1.8611e-19    1     
+    URL_1           1.1452e-13    7.0723e+06     1.6193e-20    1     
+    URL_3           3.4995e-12    3.1001e+07     1.1288e-19    1     
+    URL_4          -1.4334e-12    1.0995e+07    -1.3037e-19    1     
+    USERAGENT_1      6.082e-13    1.5226e+07     3.9946e-20    1     
+    USERAGENT_2     5.2174e-13    1.5477e+07     3.3711e-20    1     
+    USERAGENT_3     6.9913e-13    1.4449e+07     4.8387e-20    1     
+    USERAGENT_4    -5.5894e-14    1.4185e+07    -3.9403e-21    1     
+    COOKIE_1        2.4674e-13    6.5185e+06     3.7852e-20    1     
+    BROWSER_1      -2.3794e-12    3.7937e+07    -6.2719e-20    1     
+    BROWSER_2      -5.2779e-13    2.3013e+07    -2.2934e-20    1     
+    BROWSER_3       -1.863e-13    2.2673e+07    -8.2167e-21    1     
+    BROWSER_4      -1.1108e-12    3.6999e+07    -3.0022e-20    1     
+    BROWSER_5      -2.8296e-13    2.2571e+07    -1.2537e-20    1     
+    BROWSER_6      -1.7397e-14     2.225e+07    -7.8186e-22    1     
+    BROWSER_7      -9.9097e-13    3.0728e+07     -3.225e-20    1     
+    MSTATUS         1.5071e-14    1.7232e+05     8.7456e-20    1     
+
+
+562 observations, 540 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 0, p-value = 1
+
+RegLog21I1 = 
+
+
+Generalized Linear regression model:
+    logit(LSTATUS) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER
+    Distribution = Binomial
+
+Estimated Coefficients:
+                   Estimate         SE           tStat       pValue 
+                   _________    __________    ___________    _______
+
+    (Intercept)      -115.93    1.7374e+07    -6.6725e-06    0.99999
+    METODO_1         0.40844        1.1086        0.36842    0.71256
+    METODO_2        -0.14284        0.8005       -0.17844    0.85838
+    URI_1           -0.50451       0.73282       -0.68846    0.49117
+    URI_2           -0.45998       0.63788       -0.72111    0.47084
+    URI_3           -0.63563        0.6773       -0.93848      0.348
+    URL_1          -0.025075       0.48185      -0.052038     0.9585
+    URL_3            -99.267    2.3727e+07    -4.1838e-06          1
+    URL_4            -98.662    9.6902e+06    -1.0182e-05    0.99999
+    USERAGENT_1       81.695    1.3135e+07     6.2199e-06          1
+    USERAGENT_2       80.674    1.3135e+07     6.1421e-06          1
+    USERAGENT_3       82.275    1.3135e+07     6.2641e-06          1
+    USERAGENT_4       82.201    1.3135e+07     6.2584e-06          1
+    COOKIE_1        0.028853        0.4789       0.060249    0.95196
+    BROWSER_1        -68.362    2.5237e+07    -2.7088e-06          1
+    BROWSER_2          32.17    1.5083e+07     2.1328e-06          1
+    BROWSER_3         31.599    1.5083e+07     2.0949e-06          1
+    BROWSER_4        -59.818    3.1089e+07    -1.9241e-06          1
+    BROWSER_5         31.533    1.5083e+07     2.0906e-06          1
+    BROWSER_6         31.083    1.5083e+07     2.0607e-06          1
+    BROWSER_7        -67.959    2.6036e+07    -2.6102e-06          1
+
+
+556 observations, 535 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 21.8, p-value = 0.353
+
+RegLog21I2 = 
+
+
+Generalized Linear regression model:
+    logit(LREGRA) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER + MSTATUS
+    Distribution = Binomial
+
+Estimated Coefficients:
+                    Estimate          SE           tStat       pValue
+                   ___________    __________    ___________    ______
+
+    (Intercept)        -102.57    2.6443e+07    -3.8788e-06    1     
+    METODO_1        4.1492e-12    1.9341e+07     2.1452e-19    1     
+    METODO_2         2.649e-12    1.1679e+07     2.2682e-19    1     
+    URI_1          -1.4246e-12    1.1994e+07    -1.1877e-19    1     
+    URI_2          -7.9843e-13    1.0768e+07    -7.4152e-20    1     
+    URI_3          -5.6691e-13    1.1109e+07    -5.1033e-20    1     
+    URL_1          -3.6151e-13    6.9866e+06    -5.1743e-20    1     
+    URL_3           2.0771e-12     2.504e+07     8.2952e-20    1     
+    URL_4           7.7705e-13    1.1226e+07     6.9221e-20    1     
+    USERAGENT_1    -1.4677e-12    1.6431e+07    -8.9323e-20    1     
+    USERAGENT_2    -1.1635e-12    1.6617e+07    -7.0017e-20    1     
+    USERAGENT_3    -3.1252e-13    1.5355e+07    -2.0353e-20    1     
+    USERAGENT_4    -1.0855e-12    1.5345e+07     -7.074e-20    1     
+    COOKIE_1       -1.6037e-13    6.5246e+06     -2.458e-20    1     
+    BROWSER_1      -4.1545e-13    3.3777e+07      -1.23e-20    1     
+    BROWSER_2      -1.1886e-13    2.7207e+07    -4.3687e-21    1     
+    BROWSER_3      -1.2826e-12    2.7166e+07    -4.7213e-20    1     
+    BROWSER_4      -1.2165e-12    3.7955e+07    -3.2052e-20    1     
+    BROWSER_5      -8.9952e-13     2.676e+07    -3.3614e-20    1     
+    BROWSER_6      -1.2142e-12    2.6629e+07    -4.5595e-20    1     
+    BROWSER_7      -1.3054e-12    3.4511e+07    -3.7826e-20    1     
+    MSTATUS         3.5319e-15    1.8727e+05      1.886e-20    1     
+
+
+556 observations, 534 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 0, p-value = 1
+
+RegLog21J1 = 
+
+
+Generalized Linear regression model:
+    logit(LSTATUS) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER
+    Distribution = Binomial
+
+Estimated Coefficients:
+                   Estimate        SE           tStat       pValue 
+                   ________    __________    ___________    _______
+
+    (Intercept)     -87.874    1.5496e+07    -5.6706e-06          1
+    METODO_1       -0.20666        1.0858       -0.19032    0.84906
+    METODO_2        0.19055       0.68499        0.27818    0.78088
+    URI_1           0.59068       0.85976        0.68703    0.49206
+    URI_2           0.70104       0.80275        0.87331     0.3825
+    URI_3           0.34729       0.82465        0.42114    0.67366
+    URL_1          -0.17934        0.4705       -0.38116    0.70308
+    URL_3           -85.375    2.3796e+07    -3.5879e-06          1
+    URL_4           -88.309     8.886e+06     -9.938e-06    0.99999
+    USERAGENT_1      52.561    1.2261e+07      4.287e-06          1
+    USERAGENT_2     -35.906    1.4135e+07    -2.5402e-06          1
+    USERAGENT_3       55.42    1.2261e+07     4.5201e-06          1
+    USERAGENT_4      55.037    1.2261e+07      4.489e-06          1
+    COOKIE_1       -0.41861       0.46411       -0.90196    0.36708
+    BROWSER_1        31.439    1.5415e+07     2.0394e-06          1
+    BROWSER_2        31.191    1.5415e+07     2.0234e-06          1
+    BROWSER_3        29.761    1.5415e+07     1.9306e-06          1
+    BROWSER_4       -65.281    3.3389e+07    -1.9552e-06          1
+    BROWSER_5        29.701    1.5415e+07     1.9267e-06          1
+    BROWSER_6        30.066    1.5415e+07     1.9504e-06          1
+    BROWSER_7       -51.769    2.6311e+07    -1.9676e-06          1
+
+
+577 observations, 556 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 47.3, p-value = 0.000535
+
+RegLog21J2 = 
+
+
+Generalized Linear regression model:
+    logit(LREGRA) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER + MSTATUS
+    Distribution = Binomial
+
+Estimated Coefficients:
+                    Estimate          SE           tStat       pValue
+                   ___________    __________    ___________    ______
+
+    (Intercept)        -102.57    2.1871e+07    -4.6896e-06    1     
+    METODO_1        2.0874e-12    1.5179e+07     1.3752e-19    1     
+    METODO_2        5.8717e-12    1.1441e+07     5.1319e-19    1     
+    URI_1          -8.7356e-13    1.1797e+07    -7.4052e-20    1     
+    URI_2          -2.9904e-12    1.0711e+07    -2.7918e-19    1     
+    URI_3          -4.6961e-13    1.0994e+07    -4.2716e-20    1     
+    URL_1          -6.3186e-14    6.9578e+06    -9.0814e-21    1     
+    URL_3           4.3438e-12    2.4993e+07      1.738e-19    1     
+    URL_4           3.6266e-13    1.0411e+07     3.4833e-20    1     
+    USERAGENT_1    -1.2542e-13    1.5492e+07    -8.0954e-21    1     
+    USERAGENT_2    -5.6795e-13    1.5717e+07    -3.6136e-20    1     
+    USERAGENT_3    -9.8107e-13    1.4858e+07     -6.603e-20    1     
+    USERAGENT_4    -1.1903e-12    1.4562e+07     -8.174e-20    1     
+    COOKIE_1        4.7362e-13    6.4602e+06     7.3314e-20    1     
+    BROWSER_1        3.301e-12    3.6151e+07     9.1311e-20    1     
+    BROWSER_2      -3.5779e-13     2.315e+07    -1.5455e-20    1     
+    BROWSER_3       6.1136e-13     2.293e+07     2.6662e-20    1     
+    BROWSER_4       8.9691e-13    3.7033e+07     2.4219e-20    1     
+    BROWSER_5       5.2386e-13    2.2629e+07      2.315e-20    1     
+    BROWSER_6       5.8235e-13     2.248e+07     2.5905e-20    1     
+    BROWSER_7      -5.5683e-14    3.1406e+07     -1.773e-21    1     
+    MSTATUS         1.9131e-15    1.8822e+05     1.0164e-20    1     
+
+
+577 observations, 555 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 0, p-value = 1
+
+RegLog21K1 = 
+
+
+Generalized Linear regression model:
+    logit(LSTATUS) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER
+    Distribution = Binomial
+
+Estimated Coefficients:
+                   Estimate        SE           tStat       pValue 
+                   ________    __________    ___________    _______
+
+    (Intercept)     -112.59    1.6735e+07    -6.7275e-06    0.99999
+    METODO_1        -94.338    1.5125e+07    -6.2374e-06          1
+    METODO_2         -0.301           0.8       -0.37625    0.70673
+    URI_1          -0.40989       0.80426       -0.50965     0.6103
+    URI_2          -0.13663       0.70278       -0.19442    0.84585
+    URI_3          -0.35117       0.74082       -0.47403    0.63548
+    URL_1          -0.13839       0.48524       -0.28519     0.7755
+    URL_3            -92.93    2.2433e+07    -4.1426e-06          1
+    URL_4           -94.477    9.3035e+06    -1.0155e-05    0.99999
+    USERAGENT_1       77.02    1.1502e+07      6.696e-06    0.99999
+    USERAGENT_2      76.518    1.1502e+07     6.6524e-06    0.99999
+    USERAGENT_3      77.705    1.1502e+07     6.7556e-06    0.99999
+    USERAGENT_4      77.549    1.1502e+07      6.742e-06    0.99999
+    COOKIE_1       -0.22371       0.48239       -0.46375    0.64283
+    BROWSER_1       -67.223    3.2889e+07    -2.0439e-06          1
+    BROWSER_2        32.474    1.8196e+07     1.7847e-06          1
+    BROWSER_3        32.723    1.8196e+07     1.7984e-06          1
+    BROWSER_4        -45.21    3.4775e+07    -1.3001e-06          1
+    BROWSER_5        32.815    1.8196e+07     1.8034e-06          1
+    BROWSER_6        32.935    1.8196e+07       1.81e-06          1
+    BROWSER_7       -66.831    2.7955e+07    -2.3907e-06          1
+
+
+596 observations, 575 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 18, p-value = 0.588
+
+RegLog21K2 = 
+
+
+Generalized Linear regression model:
+    logit(LREGRA) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER + MSTATUS
+    Distribution = Binomial
+
+Estimated Coefficients:
+                    Estimate          SE           tStat       pValue
+                   ___________    __________    ___________    ______
+
+    (Intercept)        -102.57    2.0532e+07    -4.9954e-06    1     
+    METODO_1        5.7475e-12    1.5939e+07     3.6059e-19    1     
+    METODO_2       -3.7153e-13    1.0472e+07    -3.5479e-20    1     
+    URI_1          -2.7465e-12    1.1887e+07    -2.3105e-19    1     
+    URI_2          -9.6106e-13    1.0884e+07    -8.8301e-20    1     
+    URI_3          -3.4843e-12    1.1135e+07    -3.1291e-19    1     
+    URL_1           8.9876e-15    6.8252e+06     1.3168e-21    1     
+    URL_3           1.0189e-12    2.3451e+07     4.3447e-20    1     
+    URL_4           8.1236e-14    1.0801e+07     7.5211e-21    1     
+    USERAGENT_1     7.9765e-13    1.3728e+07     5.8106e-20    1     
+    USERAGENT_2     2.7439e-12    1.4137e+07     1.9409e-19    1     
+    USERAGENT_3     4.4986e-13    1.3407e+07     3.3554e-20    1     
+    USERAGENT_4     3.7765e-14    1.2917e+07     2.9237e-21    1     
+    COOKIE_1       -4.1423e-14    6.2228e+06    -6.6567e-21    1     
+    BROWSER_1      -5.6256e-13    3.3929e+07     -1.658e-20    1     
+    BROWSER_2       -1.136e-12    1.9593e+07    -5.7979e-20    1     
+    BROWSER_3       2.4083e-13    1.9824e+07     1.2148e-20    1     
+    BROWSER_4       -7.993e-13    3.5239e+07    -2.2683e-20    1     
+    BROWSER_5       1.8593e-13    1.9294e+07     9.6366e-21    1     
+    BROWSER_6      -3.9133e-13    1.8876e+07    -2.0732e-20    1     
+    BROWSER_7      -8.4796e-15     2.874e+07    -2.9504e-22    1     
+    MSTATUS        -1.7103e-15    1.9117e+05    -8.9468e-21    1     
+
+
+596 observations, 574 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 0, p-value = 1
+
+RegLog21L1 = 
+
+
+Generalized Linear regression model:
+    logit(LSTATUS) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER
+    Distribution = Binomial
+
+Estimated Coefficients:
+                   Estimate         SE           tStat       pValue 
+                   _________    __________    ___________    _______
+
+    (Intercept)      -111.58    1.6835e+07    -6.6279e-06    0.99999
+    METODO_1         -96.001    1.6786e+07    -5.7192e-06          1
+    METODO_2         0.21962       0.81481        0.26953    0.78752
+    METODO_5         -101.12    6.7109e+07    -1.5068e-06          1
+    URI_1           -0.43745       0.73076       -0.59863    0.54942
+    URI_2          -0.019158       0.63879      -0.029992    0.97607
+    URI_3           -0.42597       0.67803       -0.62824    0.52985
+    URL_1            0.86171       0.51104         1.6862    0.09176
+    URL_3            -98.649    2.3727e+07    -4.1577e-06          1
+    URL_4            -95.563    8.5558e+06    -1.1169e-05    0.99999
+    USERAGENT_1        75.39    1.2222e+07     6.1682e-06          1
+    USERAGENT_2       75.229    1.2222e+07      6.155e-06          1
+    USERAGENT_3       75.781    1.2222e+07     6.2002e-06          1
+    USERAGENT_4        75.87    1.2222e+07     6.2074e-06          1
+    COOKIE_1         0.17341       0.47444        0.36551    0.71473
+    BROWSER_1        -67.416    4.3016e+07    -1.5672e-06          1
+    BROWSER_2         32.609    1.8686e+07     1.7451e-06          1
+    BROWSER_3         32.806    1.8686e+07     1.7556e-06          1
+    BROWSER_4         8.5782    6.9188e+07     1.2398e-07          1
+    BROWSER_5          33.49    1.8686e+07     1.7923e-06          1
+    BROWSER_6         32.278    1.8686e+07     1.7274e-06          1
+    BROWSER_7         -67.57    3.0201e+07    -2.2373e-06          1
+
+
+556 observations, 534 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 28.8, p-value = 0.118
+
+RegLog21L2 = 
+
+
+Generalized Linear regression model:
+    logit(LREGRA) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER + MSTATUS
+    Distribution = Binomial
+
+Estimated Coefficients:
+                    Estimate          SE           tStat       pValue
+                   ___________    __________    ___________    ______
+
+    (Intercept)        -102.57    2.1262e+07     -4.824e-06    1     
+    METODO_1       -1.9667e-12    1.7408e+07    -1.1298e-19    1     
+    METODO_2         3.432e-12    1.1773e+07     2.9152e-19    1     
+    METODO_5       -1.6529e-11    6.8139e+07    -2.4258e-19    1     
+    URI_1           -1.655e-12    1.1824e+07    -1.3996e-19    1     
+    URI_2          -2.8252e-13    1.0741e+07    -2.6304e-20    1     
+    URI_3            6.479e-13    1.0917e+07     5.9348e-20    1     
+    URL_1           8.2645e-13     7.257e+06     1.1388e-19    1     
+    URL_3           1.6294e-12    2.4885e+07     6.5478e-20    1     
+    URL_4           1.2575e-12    1.0196e+07     1.2333e-19    1     
+    USERAGENT_1    -1.0319e-12    1.4599e+07    -7.0684e-20    1     
+    USERAGENT_2    -2.2154e-13    1.5226e+07     -1.455e-20    1     
+    USERAGENT_3    -3.6259e-13    1.4235e+07    -2.5472e-20    1     
+    USERAGENT_4      -1.98e-13    1.3834e+07    -1.4312e-20    1     
+    COOKIE_1       -1.7731e-13    6.4697e+06    -2.7407e-20    1     
+    BROWSER_1      -4.7022e-12     4.448e+07    -1.0571e-19    1     
+    BROWSER_2      -1.4958e-13    2.1435e+07    -6.9784e-21    1     
+    BROWSER_3      -3.4707e-13     2.137e+07    -1.6241e-20    1     
+    BROWSER_4       3.8677e-13    6.9658e+07     5.5525e-21    1     
+    BROWSER_5      -5.6433e-13    2.1133e+07    -2.6704e-20    1     
+    BROWSER_6      -8.8059e-13    2.0537e+07    -4.2878e-20    1     
+    BROWSER_7      -9.3071e-13    3.1827e+07    -2.9243e-20    1     
+    MSTATUS        -1.0803e-14    1.7033e+05    -6.3422e-20    1     
+
+
+556 observations, 533 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 0, p-value = 1
+
+RegLog28A1 = 
+
+
+Generalized Linear regression model:
+    logit(LSTATUS) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER
+    Distribution = Binomial
+
+Estimated Coefficients:
+                   Estimate        SE           tStat       pValue 
+                   ________    __________    ___________    _______
+
+    (Intercept)     -135.72    1.8025e+07      -7.53e-06    0.99999
+    METODO_1         -99.67    2.0234e+07    -4.9258e-06          1
+    METODO_2        0.50472        1.1853        0.42583    0.67023
+    URI_1           -1.1256       0.91155        -1.2348    0.21691
+    URI_2          -0.28638       0.68005       -0.42112    0.67367
+    URI_3           -1.1684       0.81431        -1.4349    0.15133
+    URL_1            0.7965       0.72952         1.0918    0.27491
+    URL_3           -97.492    2.1222e+07     -4.594e-06          1
+    URL_4          -0.49042        1.2015       -0.40818    0.68314
+    USERAGENT_1      86.892    1.2524e+07     6.9383e-06    0.99999
+    USERAGENT_2      86.529    1.2524e+07     6.9092e-06    0.99999
+    USERAGENT_3       86.67    1.2524e+07     6.9205e-06    0.99999
+    USERAGENT_4      86.803    1.2524e+07     6.9311e-06    0.99999
+    COOKIE_1       -0.93416       0.69564        -1.3429    0.17931
+    BROWSER_1       -53.647    4.4024e+07    -1.2186e-06          1
+    BROWSER_2        46.261    2.0903e+07     2.2132e-06          1
+    BROWSER_3        46.642    2.0903e+07     2.2314e-06          1
+    BROWSER_4       -25.704    3.8309e+07    -6.7096e-07          1
+    BROWSER_5        46.776    2.0903e+07     2.2378e-06          1
+    BROWSER_6            45    2.0903e+07     2.1529e-06          1
+    BROWSER_7       -53.811    3.2868e+07    -1.6372e-06          1
+
+
+548 observations, 527 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 23, p-value = 0.29
+
+RegLog28A2 = 
+
+
+Generalized Linear regression model:
+    logit(LREGRA) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER + MSTATUS
+    Distribution = Binomial
+
+Estimated Coefficients:
+                    Estimate          SE           tStat       pValue
+                   ___________    __________    ___________    ______
+
+    (Intercept)        -102.57    2.1391e+07    -4.7947e-06    1     
+    METODO_1       -1.3851e-13    2.0822e+07     -6.652e-21    1     
+    METODO_2       -1.6685e-12    1.1298e+07    -1.4768e-19    1     
+    URI_1           1.9134e-12    1.1624e+07     1.6461e-19    1     
+    URI_2           3.5574e-12    1.0313e+07     3.4493e-19    1     
+    URI_3           1.1831e-12    1.0607e+07     1.1155e-19    1     
+    URL_1            3.284e-13    7.2393e+06     4.5363e-20    1     
+    URL_3          -1.2979e-12    2.2457e+07    -5.7795e-20    1     
+    URL_4           6.6871e-13    1.0305e+07     6.4891e-20    1     
+    USERAGENT_1     5.4664e-13    1.5169e+07     3.6037e-20    1     
+    USERAGENT_2     8.5604e-13    1.5703e+07     5.4513e-20    1     
+    USERAGENT_3     3.6154e-13    1.4255e+07     2.5362e-20    1     
+    USERAGENT_4      5.509e-13    1.4134e+07     3.8976e-20    1     
+    COOKIE_1        3.0714e-13    6.5634e+06     4.6797e-20    1     
+    BROWSER_1      -1.5745e-12    4.4808e+07     -3.514e-20    1     
+    BROWSER_2      -1.9865e-12    2.2476e+07    -8.8386e-20    1     
+    BROWSER_3      -2.5997e-12    2.2062e+07    -1.1784e-19    1     
+    BROWSER_4      -3.1615e-12    3.8596e+07    -8.1913e-20    1     
+    BROWSER_5      -2.6089e-12    2.1932e+07    -1.1895e-19    1     
+    BROWSER_6      -2.5341e-12    2.1644e+07    -1.1708e-19    1     
+    BROWSER_7       -4.892e-13    3.3708e+07    -1.4513e-20    1     
+    MSTATUS         5.8097e-15    2.2396e+05      2.594e-20    1     
+
+
+548 observations, 526 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 0, p-value = 1
+
+RegLog28B1 = 
+
+
+Generalized Linear regression model:
+    logit(LSTATUS) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER
+    Distribution = Binomial
+
+Estimated Coefficients:
+                   Estimate        SE           tStat       pValue 
+                   ________    __________    ___________    _______
+
+    (Intercept)     -110.06    2.0945e+07    -5.2547e-06          1
+    METODO_1        -86.949    1.5921e+07    -5.4613e-06          1
+    METODO_2       -0.32064         1.101       -0.29122    0.77088
+    METODO_5         -100.7    6.7109e+07    -1.5005e-06          1
+    URI_1           -1.6569        1.2129        -1.3661    0.17191
+    URI_2          -0.39364       0.76726       -0.51305    0.60792
+    URI_3          -0.23976        0.7517       -0.31896    0.74976
+    URL_1           0.43044        0.5884        0.73154    0.46445
+    URL_3           -99.059    2.7397e+07    -3.6157e-06          1
+    URL_4           -87.417    1.1004e+07    -7.9442e-06    0.99999
+    USERAGENT_1       75.33      1.37e+07     5.4987e-06          1
+    USERAGENT_2     -15.072    1.5929e+07    -9.4622e-07          1
+    USERAGENT_3      74.877      1.37e+07     5.4656e-06          1
+    USERAGENT_4      75.306      1.37e+07      5.497e-06          1
+    COOKIE_1       -0.10504       0.58875       -0.17841     0.8584
+    BROWSER_1       -66.887    7.0679e+07    -9.4634e-07          1
+    BROWSER_2        32.208    2.2181e+07      1.452e-06          1
+    BROWSER_3        33.096    2.2181e+07     1.4921e-06          1
+    BROWSER_4       -45.821    5.1674e+07    -8.8673e-07          1
+    BROWSER_5        32.882    2.2181e+07     1.4825e-06          1
+    BROWSER_6        31.163    2.2181e+07      1.405e-06          1
+    BROWSER_7       -67.807     3.525e+07    -1.9236e-06          1
+
+
+467 observations, 445 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 25.3, p-value = 0.233
+
+RegLog28B2 = 
+
+
+Generalized Linear regression model:
+    logit(LREGRA) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER + MSTATUS
+    Distribution = Binomial
+
+Estimated Coefficients:
+                    Estimate          SE           tStat       pValue
+                   ___________    __________    ___________    ______
+
+    (Intercept)        -102.57    2.6875e+07    -3.8165e-06    1     
+    METODO_1       -3.1896e-12     1.668e+07    -1.9122e-19    1     
+    METODO_2       -6.7222e-13      1.35e+07    -4.9792e-20    1     
+    METODO_5        9.8993e-13    6.8157e+07     1.4524e-20    1     
+    URI_1          -5.7439e-13    1.2892e+07    -4.4552e-20    1     
+    URI_2           -6.059e-13    1.1253e+07    -5.3842e-20    1     
+    URI_3          -2.1926e-12    1.1455e+07    -1.9141e-19    1     
+    URL_1           2.2521e-13    7.7341e+06     2.9119e-20    1     
+    URL_3           8.2757e-12    2.8654e+07     2.8881e-19    1     
+    URL_4           1.8114e-13    1.2408e+07     1.4599e-20    1     
+    USERAGENT_1    -9.0953e-13    1.7407e+07     -5.225e-20    1     
+    USERAGENT_2     -7.883e-13    1.7436e+07    -4.5211e-20    1     
+    USERAGENT_3    -1.7886e-13    1.5887e+07    -1.1259e-20    1     
+    USERAGENT_4    -1.0894e-13    1.6098e+07    -6.7672e-21    1     
+    COOKIE_1        1.0855e-13    7.1801e+06     1.5118e-20    1     
+    BROWSER_1       4.5615e-13    7.2855e+07     6.2611e-21    1     
+    BROWSER_2       3.5214e-13    2.8439e+07     1.2382e-20    1     
+    BROWSER_3      -4.2711e-13    2.7874e+07    -1.5323e-20    1     
+    BROWSER_4      -4.4923e-12    5.3716e+07    -8.3631e-20    1     
+    BROWSER_5      -2.9328e-13    2.7825e+07     -1.054e-20    1     
+    BROWSER_6       1.8972e-13    2.7472e+07     6.9062e-21    1     
+    BROWSER_7       9.9638e-14    3.9392e+07     2.5294e-21    1     
+    MSTATUS        -2.2858e-15    2.2488e+05    -1.0164e-20    1     
+
+
+467 observations, 444 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 0, p-value = 1
+
+RegLog28C1 = 
+
+
+Generalized Linear regression model:
+    logit(LSTATUS) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER
+    Distribution = Binomial
+
+Estimated Coefficients:
+                   Estimate        SE           tStat       pValue 
+                   ________    __________    ___________    _______
+
+    (Intercept)     -1.1943        1.4005       -0.85279    0.39378
+    METODO_1        -90.709    2.5456e+07    -3.5634e-06          1
+    METODO_2         1.0581       0.88604         1.1942    0.23239
+    URI_1            -0.225       0.90443       -0.24877    0.80354
+    URI_2          -0.46505       0.80173       -0.58006    0.56187
+    URI_3          -0.70716       0.81626       -0.86634     0.3863
+    URL_1           0.02859       0.63105       0.045306    0.96386
+    URL_3           -99.415    3.0012e+07    -3.3125e-06          1
+    URL_4           -96.462     1.506e+07    -6.4052e-06    0.99999
+    USERAGENT_1      104.08    1.7936e+07     5.8029e-06          1
+    USERAGENT_2      104.03    1.7936e+07        5.8e-06          1
+    USERAGENT_3      104.56    1.7936e+07     5.8297e-06          1
+    USERAGENT_4      104.86    1.7936e+07     5.8467e-06          1
+    COOKIE_1       -0.11279        0.6509       -0.17328    0.86243
+    BROWSER_1       -205.35    6.9464e+07    -2.9562e-06          1
+    BROWSER_2          -106    1.7936e+07    -5.9102e-06          1
+    BROWSER_3       -105.32    1.7936e+07    -5.8719e-06          1
+    BROWSER_4        -205.8     5.073e+07    -4.0568e-06          1
+    BROWSER_5       -105.34    1.7936e+07    -5.8732e-06          1
+    BROWSER_6       -106.58    1.7936e+07    -5.9421e-06          1
+    BROWSER_7       -205.32    3.4963e+07    -5.8726e-06          1
+
+
+353 observations, 332 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 14.1, p-value = 0.827
+
+RegLog28C2 = 
+
+
+Generalized Linear regression model:
+    logit(LREGRA) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER + MSTATUS
+    Distribution = Binomial
+
+Estimated Coefficients:
+                    Estimate          SE           tStat       pValue
+                   ___________    __________    ___________    ______
+
+    (Intercept)        -102.57    3.1094e+07    -3.2986e-06    1     
+    METODO_1       -4.5472e-12    2.6347e+07    -1.7259e-19    1     
+    METODO_2       -3.3712e-12    1.4941e+07    -2.2563e-19    1     
+    URI_1           4.3371e-13    1.4875e+07     2.9156e-20    1     
+    URI_2          -2.5126e-12    1.3097e+07    -1.9185e-19    1     
+    URI_3          -2.4462e-12    1.3028e+07    -1.8776e-19    1     
+    URL_1          -6.0051e-13    9.2788e+06    -6.4718e-20    1     
+    URL_3          -4.6493e-13    3.1905e+07    -1.4572e-20    1     
+    URL_4          -1.8685e-12    1.7183e+07    -1.0874e-19    1     
+    USERAGENT_1    -1.0321e-12    2.1947e+07    -4.7027e-20    1     
+    USERAGENT_2    -9.6201e-13    2.1837e+07    -4.4053e-20    1     
+    USERAGENT_3    -8.9715e-13    1.9945e+07     -4.498e-20    1     
+    USERAGENT_4    -4.5234e-13    2.0426e+07    -2.2145e-20    1     
+    COOKIE_1       -1.5359e-13    8.9486e+06    -1.7164e-20    1     
+    BROWSER_1      -3.0064e-13    7.5761e+07    -3.9683e-21    1     
+    BROWSER_2       5.8304e-13    3.5127e+07     1.6598e-20    1     
+    BROWSER_3       7.0168e-13    3.4118e+07     2.0567e-20    1     
+    BROWSER_4         1.29e-12    5.9233e+07     2.1779e-20    1     
+    BROWSER_5        1.259e-12    3.4169e+07     3.6845e-20    1     
+    BROWSER_6       1.5229e-12    3.4295e+07     4.4406e-20    1     
+    BROWSER_7       2.3967e-12    4.6435e+07     5.1614e-20    1     
+    MSTATUS         1.7659e-14    2.0439e+05     8.6397e-20    1     
+
+
+353 observations, 331 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 0, p-value = 1
+
+RegLog28D1 = 
+
+
+Generalized Linear regression model:
+    logit(LSTATUS) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER
+    Distribution = Binomial
+
+Estimated Coefficients:
+                   Estimate        SE           tStat       pValue 
+                   ________    __________    ___________    _______
+
+    (Intercept)    -0.70685        1.4038       -0.50351     0.6146
+    METODO_1        -77.436    2.7599e+07    -2.8057e-06          1
+    METODO_2        0.27682        1.1772        0.23516    0.81408
+    URI_1           -1.5453        1.2197        -1.2669    0.20519
+    URI_2          -0.65131       0.78069       -0.83427    0.40413
+    URI_3          -0.79485       0.79266        -1.0028    0.31597
+    URL_1            0.0386       0.70554        0.05471    0.95637
+    URL_3           -99.245    3.8745e+07    -2.5615e-06          1
+    URL_4           -93.852    1.4335e+07    -6.5471e-06    0.99999
+    USERAGENT_1      101.12    1.7425e+07     5.8035e-06          1
+    USERAGENT_2       5.108      1.99e+07     2.5668e-07          1
+    USERAGENT_3      99.651    1.7425e+07     5.7189e-06          1
+    USERAGENT_4      100.44    1.7425e+07     5.7639e-06          1
+    COOKIE_1       -0.82324       0.74546        -1.1043    0.26945
+    BROWSER_1       -200.53    5.0551e+07    -3.9669e-06          1
+    BROWSER_2       -101.34    1.7425e+07    -5.8156e-06          1
+    BROWSER_3       -101.28    1.7425e+07    -5.8123e-06          1
+    BROWSER_5       -100.38    1.7425e+07    -5.7607e-06          1
+    BROWSER_6       -103.28    1.7425e+07    -5.9272e-06          1
+    BROWSER_7       -201.33    3.7809e+07     -5.325e-06          1
+
+
+321 observations, 301 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 26.8, p-value = 0.11
+
+RegLog28D2 = 
+
+
+Generalized Linear regression model:
+    logit(LREGRA) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER + MSTATUS
+    Distribution = Binomial
+
+Estimated Coefficients:
+                    Estimate          SE           tStat       pValue
+                   ___________    __________    ___________    ______
+
+    (Intercept)        -102.57    2.8148e+07    -3.6439e-06    1     
+    METODO_1        4.7682e-12     2.861e+07     1.6666e-19    1     
+    METODO_2        1.6156e-12    1.5329e+07      1.054e-19    1     
+    URI_1          -5.2067e-14    1.6704e+07    -3.1171e-21    1     
+    URI_2          -4.5329e-13    1.3579e+07    -3.3381e-20    1     
+    URI_3           8.2784e-13    1.3631e+07      6.073e-20    1     
+    URL_1          -3.0118e-13    9.7882e+06     -3.077e-20    1     
+    URL_3            2.259e-12     4.011e+07      5.632e-20    1     
+    URL_4           9.0873e-13    1.6265e+07     5.5872e-20    1     
+    USERAGENT_1     7.0024e-13    2.3163e+07     3.0231e-20    1     
+    USERAGENT_2     5.9274e-13     2.322e+07     2.5527e-20    1     
+    USERAGENT_3     5.1079e-13     1.969e+07     2.5941e-20    1     
+    USERAGENT_4     3.7519e-13    2.1362e+07     1.7563e-20    1     
+    COOKIE_1       -7.7582e-13    9.1632e+06    -8.4667e-20    1     
+    BROWSER_1       8.1269e-13    5.7158e+07     1.4218e-20    1     
+    BROWSER_2        3.287e-13    3.3369e+07     9.8503e-21    1     
+    BROWSER_3      -5.1828e-13    3.0794e+07     -1.683e-20    1     
+    BROWSER_5      -7.8576e-13     3.135e+07    -2.5064e-20    1     
+    BROWSER_6      -5.9855e-13    3.2388e+07    -1.8481e-20    1     
+    BROWSER_7      -2.9017e-13    4.7562e+07    -6.1008e-21    1     
+    MSTATUS        -8.4711e-15    2.0727e+05    -4.0869e-20    1     
+
+
+321 observations, 300 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 0, p-value = 1
+
+RegLog28E1 = 
+
+
+Generalized Linear regression model:
+    logit(LSTATUS) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER
+    Distribution = Binomial
+
+Estimated Coefficients:
+                   Estimate        SE           tStat       pValue 
+                   ________    __________    ___________    _______
+
+    (Intercept)     -95.325    1.6764e+07    -5.6863e-06          1
+    METODO_1        0.50205        1.2034         0.4172    0.67653
+    METODO_2        0.32515        1.1593        0.28047    0.77912
+    URI_1           -98.142    8.4209e+06    -1.1655e-05    0.99999
+    URI_2          0.080996       0.75265        0.10761     0.9143
+    URI_3          -0.35467       0.80586       -0.44011    0.65985
+    URL_1           0.86849       0.81942         1.0599     0.2892
+    URL_3           -99.128    3.3554e+07    -2.9542e-06          1
+    URL_4           -94.865    1.1451e+07    -8.2847e-06    0.99999
+    USERAGENT_1       60.69    1.1582e+07     5.2403e-06          1
+    USERAGENT_2      60.745    1.1582e+07      5.245e-06          1
+    USERAGENT_3      60.574    1.1582e+07     5.2302e-06          1
+    USERAGENT_4       60.68    1.1582e+07     5.2394e-06          1
+    COOKIE_1        -1.1325       0.81442        -1.3905    0.16437
+    BROWSER_1       -68.213    3.7411e+07    -1.8234e-06          1
+    BROWSER_2        31.432    1.6543e+07        1.9e-06          1
+    BROWSER_3        32.032    1.6543e+07     1.9363e-06          1
+    BROWSER_4       -58.583    4.1803e+07    -1.4014e-06          1
+    BROWSER_5        32.349    1.6543e+07     1.9554e-06          1
+    BROWSER_6        31.061    1.6543e+07     1.8776e-06          1
+    BROWSER_7       -68.385    2.7822e+07     -2.458e-06          1
+
+
+435 observations, 414 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 28.5, p-value = 0.0977
+
+RegLog28E2 = 
+
+
+Generalized Linear regression model:
+    logit(LREGRA) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER + MSTATUS
+    Distribution = Binomial
+
+Estimated Coefficients:
+                    Estimate          SE           tStat       pValue
+                   ___________    __________    ___________    ______
+
+    (Intercept)        -102.57    2.5085e+07    -4.0887e-06    1     
+    METODO_1        1.2577e-12    2.3159e+07     5.4309e-20    1     
+    METODO_2        -1.655e-12    1.2999e+07    -1.2731e-19    1     
+    URI_1           8.3299e-13    1.3817e+07     6.0287e-20    1     
+    URI_2           2.2319e-12    1.2066e+07     1.8498e-19    1     
+    URI_3           4.8804e-12    1.2488e+07     3.9081e-19    1     
+    URL_1          -7.7004e-13    8.4969e+06    -9.0627e-20    1     
+    URL_3          -1.7596e-11    3.4593e+07    -5.0864e-19    1     
+    URL_4           8.6799e-13    1.3254e+07     6.5487e-20    1     
+    USERAGENT_1     2.8984e-13    1.5556e+07     1.8632e-20    1     
+    USERAGENT_2    -3.7284e-14    1.5828e+07    -2.3556e-21    1     
+    USERAGENT_3     1.7396e-13     1.437e+07     1.2106e-20    1     
+    USERAGENT_4    -2.2639e-13    1.4327e+07    -1.5801e-20    1     
+    COOKIE_1       -3.8878e-13    7.8811e+06    -4.9331e-20    1     
+    BROWSER_1       1.4404e-12    4.2188e+07     3.4142e-20    1     
+    BROWSER_2       2.0223e-12    2.5684e+07     7.8738e-20    1     
+    BROWSER_3       1.7139e-12    2.5197e+07      6.802e-20    1     
+    BROWSER_4       2.6158e-12    4.5311e+07     5.7729e-20    1     
+    BROWSER_5       2.1563e-12    2.4907e+07     8.6574e-20    1     
+    BROWSER_6       2.0301e-12    2.4682e+07     8.2249e-20    1     
+    BROWSER_7       4.9999e-12    3.3939e+07     1.4732e-19    1     
+    MSTATUS        -8.7539e-15    2.1531e+05    -4.0658e-20    1     
+
+
+435 observations, 413 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 0, p-value = 1
+
+RegLog28F1 = 
+
+
+Generalized Linear regression model:
+    logit(LSTATUS) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER
+    Distribution = Binomial
+
+Estimated Coefficients:
+                   Estimate        SE           tStat        pValue 
+                   ________    __________    ___________    ________
+
+    (Intercept)     -98.882    1.4939e+07     -6.619e-06     0.99999
+    METODO_1         0.6351         1.249        0.50848     0.61111
+    METODO_2         0.7475        1.1987        0.62359      0.5329
+    URI_1           -2.1439        1.1807        -1.8158    0.069398
+    URI_2          -0.24177       0.70416       -0.34334     0.73134
+    URI_3          -0.92869        0.7836        -1.1852     0.23595
+    URL_1            1.5729       0.79031         1.9903     0.04656
+    URL_3           -98.362    2.7397e+07    -3.5902e-06           1
+    URL_4           -91.565    1.0044e+07    -9.1165e-06     0.99999
+    USERAGENT_1       64.88    1.1227e+07     5.7788e-06           1
+    USERAGENT_2     -28.365    1.4002e+07    -2.0257e-06           1
+    USERAGENT_3       64.46    1.1227e+07     5.7414e-06           1
+    USERAGENT_4      64.618    1.1227e+07     5.7554e-06           1
+    COOKIE_1       -0.59907       0.64094       -0.93468     0.34995
+    BROWSER_1        31.711    1.4513e+07      2.185e-06           1
+    BROWSER_2         29.35    1.4513e+07     2.0223e-06           1
+    BROWSER_3        32.105    1.4513e+07     2.2122e-06           1
+    BROWSER_4       -61.354    3.6277e+07    -1.6913e-06           1
+    BROWSER_5        31.423    1.4513e+07     2.1651e-06           1
+    BROWSER_6        30.438    1.4513e+07     2.0973e-06           1
+    BROWSER_7       -52.536    2.5007e+07    -2.1008e-06           1
+
+
+529 observations, 508 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 41.9, p-value = 0.00286
+
+RegLog28F2 = 
+
+
+Generalized Linear regression model:
+    logit(LREGRA) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER + MSTATUS
+    Distribution = Binomial
+
+Estimated Coefficients:
+                    Estimate          SE           tStat       pValue
+                   ___________    __________    ___________    ______
+
+    (Intercept)        -102.57    2.2373e+07    -4.5843e-06    1     
+    METODO_1        6.9021e-13    2.1042e+07     3.2801e-20    1     
+    METODO_2        4.4092e-12    1.1979e+07     3.6807e-19    1     
+    URI_1          -3.4275e-12    1.2644e+07    -2.7107e-19    1     
+    URI_2          -6.2736e-12    1.1317e+07    -5.5433e-19    1     
+    URI_3          -8.9275e-12    1.1692e+07    -7.6354e-19    1     
+    URL_1           7.3164e-14    7.5149e+06     9.7359e-21    1     
+    URL_3           4.0842e-13    2.8554e+07     1.4303e-20    1     
+    URL_4           7.6887e-13    1.1604e+07     6.6259e-20    1     
+    USERAGENT_1     9.4628e-13    1.4232e+07     6.6491e-20    1     
+    USERAGENT_2    -7.6171e-13    1.5069e+07    -5.0549e-20    1     
+    USERAGENT_3    -5.4778e-13    1.4051e+07    -3.8986e-20    1     
+    USERAGENT_4     9.1575e-14    1.3434e+07     6.8165e-21    1     
+    COOKIE_1        5.6722e-13    6.8247e+06     8.3114e-20    1     
+    BROWSER_1      -1.9926e-12    3.3158e+07    -6.0095e-20    1     
+    BROWSER_2      -5.3774e-13      2.27e+07    -2.3689e-20    1     
+    BROWSER_3      -5.1525e-13    2.2991e+07    -2.2411e-20    1     
+    BROWSER_4      -3.9868e-13    3.9985e+07    -9.9708e-21    1     
+    BROWSER_5      -1.2177e-13    2.2287e+07    -5.4636e-21    1     
+    BROWSER_6      -5.6262e-13    2.1779e+07    -2.5833e-20    1     
+    BROWSER_7      -9.5914e-13    3.0454e+07    -3.1495e-20    1     
+    MSTATUS         -4.712e-15    1.8938e+05    -2.4882e-20    1     
+
+
+529 observations, 507 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 0, p-value = 1
+
+RegLog28G1 = 
+
+
+Generalized Linear regression model:
+    logit(LSTATUS) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER
+    Distribution = Binomial
+
+Estimated Coefficients:
+                   Estimate        SE           tStat        pValue 
+                   ________    __________    ___________    ________
+
+    (Intercept)      -96.72    1.4328e+07    -6.7503e-06     0.99999
+    METODO_1        -94.124    2.1236e+07    -4.4324e-06           1
+    METODO_2       0.042856       0.80254         0.0534     0.95741
+    METODO_3        -5.3406    7.2512e+07    -7.3651e-08           1
+    URI_1          -0.84969       0.86939       -0.97734      0.3284
+    URI_2           0.38934       0.69934        0.55672     0.57772
+    URI_3           0.10561       0.72779        0.14512     0.88462
+    URL_1              1.24       0.50462         2.4572    0.014002
+    URL_3           -98.762    2.3727e+07    -4.1625e-06           1
+    URL_4           -91.963    9.8538e+06    -9.3328e-06     0.99999
+    USERAGENT_1       60.81    1.1655e+07     5.2176e-06           1
+    USERAGENT_2      -32.87    1.3962e+07    -2.3542e-06           1
+    USERAGENT_3      61.283    1.1655e+07     5.2582e-06           1
+    USERAGENT_4        60.8    1.1655e+07     5.2168e-06           1
+    COOKIE_1        0.29585       0.44974        0.65783     0.51065
+    BROWSER_1        32.235    1.4722e+07     2.1895e-06           1
+    BROWSER_2        32.476    1.4722e+07     2.2059e-06           1
+    BROWSER_3        32.453    1.4722e+07     2.2043e-06           1
+    BROWSER_4       -63.418    3.0766e+07    -2.0613e-06           1
+    BROWSER_5        32.092    1.4722e+07     2.1798e-06           1
+    BROWSER_6        31.724    1.4722e+07     2.1548e-06           1
+    BROWSER_7       -49.673    2.5937e+07    -1.9151e-06           1
+
+
+576 observations, 554 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 35.2, p-value = 0.0268
+
+RegLog28G2 = 
+
+
+Generalized Linear regression model:
+    logit(LREGRA) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER + MSTATUS
+    Distribution = Binomial
+
+Estimated Coefficients:
+                    Estimate          SE           tStat       pValue
+                   ___________    __________    ___________    ______
+
+    (Intercept)        -102.57    2.0543e+07    -4.9928e-06    1     
+    METODO_1       -3.7259e-12    2.1948e+07    -1.6976e-19    1     
+    METODO_2       -1.3244e-13    1.1186e+07    -1.1839e-20    1     
+    METODO_3       -2.0862e-11    7.3064e+07    -2.8553e-19    1     
+    URI_1           5.1572e-12    1.1766e+07      4.383e-19    1     
+    URI_2           2.1516e-12    1.0693e+07     2.0121e-19    1     
+    URI_3           3.5134e-12    1.0929e+07     3.2147e-19    1     
+    URL_1             3.01e-13    6.9449e+06     4.3341e-20    1     
+    URL_3          -3.6931e-12    2.4929e+07    -1.4814e-19    1     
+    URL_4           1.1429e-12     1.131e+07     1.0105e-19    1     
+    USERAGENT_1     6.1137e-13    1.4894e+07     4.1048e-20    1     
+    USERAGENT_2     8.0396e-13    1.5251e+07     5.2715e-20    1     
+    USERAGENT_3     1.0276e-12     1.436e+07     7.1561e-20    1     
+    USERAGENT_4     3.5603e-14     1.389e+07     2.5632e-21    1     
+    COOKIE_1        1.8723e-13    6.2344e+06     3.0032e-20    1     
+    BROWSER_1       5.0126e-13    3.2093e+07     1.5619e-20    1     
+    BROWSER_2       9.3606e-13     2.153e+07     4.3476e-20    1     
+    BROWSER_3       2.1384e-13    2.1457e+07      9.966e-21    1     
+    BROWSER_4       1.7955e-12    3.4133e+07     5.2602e-20    1     
+    BROWSER_5       1.0772e-12    2.1128e+07     5.0982e-20    1     
+    BROWSER_6       1.0038e-12    2.0685e+07     4.8526e-20    1     
+    BROWSER_7       7.7553e-13    3.0208e+07     2.5673e-20    1     
+    MSTATUS         7.9562e-15    1.9467e+05     4.0869e-20    1     
+
+
+576 observations, 553 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 0, p-value = 1
+
+RegLog28H1 = 
+
+
+Generalized Linear regression model:
+    logit(LSTATUS) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER
+    Distribution = Binomial
+
+Estimated Coefficients:
+                   Estimate        SE           tStat        pValue 
+                   ________    __________    ___________    ________
+
+    (Intercept)     -1.5004        1.0731        -1.3981     0.16208
+    METODO_1        0.32225       0.84475        0.38147     0.70285
+    METODO_2        0.30631       0.82317        0.37211     0.70981
+    URI_1          -0.28177       0.70882       -0.39752     0.69099
+    URI_2          -0.44066       0.66161       -0.66604     0.50538
+    URI_3          -0.47982       0.67322       -0.71273     0.47602
+    URL_1           0.50916       0.50221         1.0138     0.31066
+    URL_3           -98.795    3.0012e+07    -3.2918e-06           1
+    URL_4             -89.9    9.4745e+06    -9.4887e-06     0.99999
+    USERAGENT_1      1.1137        1.3985         0.7964      0.4258
+    USERAGENT_2     -89.705    7.7016e+06    -1.1648e-05     0.99999
+    USERAGENT_3      1.5988        1.3604         1.1753     0.23989
+    USERAGENT_4      1.5694         1.372         1.1439     0.25267
+    COOKIE_1       -0.45118       0.49543        -0.9107     0.36246
+    BROWSER_1       -102.43    3.0012e+07    -3.4131e-06           1
+    BROWSER_2       -2.3177        1.4523        -1.5958     0.11052
+    BROWSER_3        -1.887         1.449        -1.3023     0.19282
+    BROWSER_4        -102.4    3.0012e+07    -3.4121e-06           1
+    BROWSER_5       -2.2957        1.4279        -1.6077     0.10789
+    BROWSER_6       -3.6881        1.5423        -2.3913    0.016791
+    BROWSER_7       -85.821    2.0343e+07    -4.2187e-06           1
+
+
+562 observations, 541 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 33.7, p-value = 0.0284
+
+RegLog28H2 = 
+
+
+Generalized Linear regression model:
+    logit(LREGRA) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER + MSTATUS
+    Distribution = Binomial
+
+Estimated Coefficients:
+                    Estimate          SE           tStat       pValue
+                   ___________    __________    ___________    ______
+
+    (Intercept)        -102.57    2.1426e+07     -4.787e-06    1     
+    METODO_1        2.4452e-12    1.6292e+07     1.5008e-19    1     
+    METODO_2       -6.4654e-12    1.1487e+07    -5.6284e-19    1     
+    URI_1           3.6961e-13    1.1982e+07     3.0848e-20    1     
+    URI_2           1.0663e-12    1.0965e+07     9.7243e-20    1     
+    URI_3           2.0906e-12    1.1233e+07     1.8611e-19    1     
+    URL_1           1.1452e-13    7.0723e+06     1.6193e-20    1     
+    URL_3           3.4995e-12    3.1001e+07     1.1288e-19    1     
+    URL_4          -1.4334e-12    1.0995e+07    -1.3037e-19    1     
+    USERAGENT_1      6.082e-13    1.5226e+07     3.9946e-20    1     
+    USERAGENT_2     5.2174e-13    1.5477e+07     3.3711e-20    1     
+    USERAGENT_3     6.9913e-13    1.4449e+07     4.8387e-20    1     
+    USERAGENT_4    -5.5894e-14    1.4185e+07    -3.9403e-21    1     
+    COOKIE_1        2.4674e-13    6.5185e+06     3.7852e-20    1     
+    BROWSER_1      -2.3794e-12    3.7937e+07    -6.2719e-20    1     
+    BROWSER_2      -5.2779e-13    2.3013e+07    -2.2934e-20    1     
+    BROWSER_3       -1.863e-13    2.2673e+07    -8.2167e-21    1     
+    BROWSER_4      -1.1108e-12    3.6999e+07    -3.0022e-20    1     
+    BROWSER_5      -2.8296e-13    2.2571e+07    -1.2537e-20    1     
+    BROWSER_6      -1.7397e-14     2.225e+07    -7.8186e-22    1     
+    BROWSER_7      -9.9097e-13    3.0728e+07     -3.225e-20    1     
+    MSTATUS         1.5071e-14    1.7232e+05     8.7456e-20    1     
+
+
+562 observations, 540 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 0, p-value = 1
+
+RegLog28I1 = 
+
+
+Generalized Linear regression model:
+    logit(LSTATUS) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER
+    Distribution = Binomial
+
+Estimated Coefficients:
+                   Estimate         SE           tStat       pValue 
+                   _________    __________    ___________    _______
+
+    (Intercept)      -115.93    1.7374e+07    -6.6725e-06    0.99999
+    METODO_1         0.40844        1.1086        0.36842    0.71256
+    METODO_2        -0.14284        0.8005       -0.17844    0.85838
+    URI_1           -0.50451       0.73282       -0.68846    0.49117
+    URI_2           -0.45998       0.63788       -0.72111    0.47084
+    URI_3           -0.63563        0.6773       -0.93848      0.348
+    URL_1          -0.025075       0.48185      -0.052038     0.9585
+    URL_3            -99.267    2.3727e+07    -4.1838e-06          1
+    URL_4            -98.662    9.6902e+06    -1.0182e-05    0.99999
+    USERAGENT_1       81.695    1.3135e+07     6.2199e-06          1
+    USERAGENT_2       80.674    1.3135e+07     6.1421e-06          1
+    USERAGENT_3       82.275    1.3135e+07     6.2641e-06          1
+    USERAGENT_4       82.201    1.3135e+07     6.2584e-06          1
+    COOKIE_1        0.028853        0.4789       0.060249    0.95196
+    BROWSER_1        -68.362    2.5237e+07    -2.7088e-06          1
+    BROWSER_2          32.17    1.5083e+07     2.1328e-06          1
+    BROWSER_3         31.599    1.5083e+07     2.0949e-06          1
+    BROWSER_4        -59.818    3.1089e+07    -1.9241e-06          1
+    BROWSER_5         31.533    1.5083e+07     2.0906e-06          1
+    BROWSER_6         31.083    1.5083e+07     2.0607e-06          1
+    BROWSER_7        -67.959    2.6036e+07    -2.6102e-06          1
+
+
+556 observations, 535 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 21.8, p-value = 0.353
+
+RegLog28I2 = 
+
+
+Generalized Linear regression model:
+    logit(LREGRA) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER + MSTATUS
+    Distribution = Binomial
+
+Estimated Coefficients:
+                    Estimate          SE           tStat       pValue
+                   ___________    __________    ___________    ______
+
+    (Intercept)        -102.57    2.6443e+07    -3.8788e-06    1     
+    METODO_1        4.1492e-12    1.9341e+07     2.1452e-19    1     
+    METODO_2         2.649e-12    1.1679e+07     2.2682e-19    1     
+    URI_1          -1.4246e-12    1.1994e+07    -1.1877e-19    1     
+    URI_2          -7.9843e-13    1.0768e+07    -7.4152e-20    1     
+    URI_3          -5.6691e-13    1.1109e+07    -5.1033e-20    1     
+    URL_1          -3.6151e-13    6.9866e+06    -5.1743e-20    1     
+    URL_3           2.0771e-12     2.504e+07     8.2952e-20    1     
+    URL_4           7.7705e-13    1.1226e+07     6.9221e-20    1     
+    USERAGENT_1    -1.4677e-12    1.6431e+07    -8.9323e-20    1     
+    USERAGENT_2    -1.1635e-12    1.6617e+07    -7.0017e-20    1     
+    USERAGENT_3    -3.1252e-13    1.5355e+07    -2.0353e-20    1     
+    USERAGENT_4    -1.0855e-12    1.5345e+07     -7.074e-20    1     
+    COOKIE_1       -1.6037e-13    6.5246e+06     -2.458e-20    1     
+    BROWSER_1      -4.1545e-13    3.3777e+07      -1.23e-20    1     
+    BROWSER_2      -1.1886e-13    2.7207e+07    -4.3687e-21    1     
+    BROWSER_3      -1.2826e-12    2.7166e+07    -4.7213e-20    1     
+    BROWSER_4      -1.2165e-12    3.7955e+07    -3.2052e-20    1     
+    BROWSER_5      -8.9952e-13     2.676e+07    -3.3614e-20    1     
+    BROWSER_6      -1.2142e-12    2.6629e+07    -4.5595e-20    1     
+    BROWSER_7      -1.3054e-12    3.4511e+07    -3.7826e-20    1     
+    MSTATUS         3.5319e-15    1.8727e+05      1.886e-20    1     
+
+
+556 observations, 534 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 0, p-value = 1
+
+RegLog28J1 = 
+
+
+Generalized Linear regression model:
+    logit(LSTATUS) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER
+    Distribution = Binomial
+
+Estimated Coefficients:
+                   Estimate        SE           tStat       pValue 
+                   ________    __________    ___________    _______
+
+    (Intercept)     -87.874    1.5496e+07    -5.6706e-06          1
+    METODO_1       -0.20666        1.0858       -0.19032    0.84906
+    METODO_2        0.19055       0.68499        0.27818    0.78088
+    URI_1           0.59068       0.85976        0.68703    0.49206
+    URI_2           0.70104       0.80275        0.87331     0.3825
+    URI_3           0.34729       0.82465        0.42114    0.67366
+    URL_1          -0.17934        0.4705       -0.38116    0.70308
+    URL_3           -85.375    2.3796e+07    -3.5879e-06          1
+    URL_4           -88.309     8.886e+06     -9.938e-06    0.99999
+    USERAGENT_1      52.561    1.2261e+07      4.287e-06          1
+    USERAGENT_2     -35.906    1.4135e+07    -2.5402e-06          1
+    USERAGENT_3       55.42    1.2261e+07     4.5201e-06          1
+    USERAGENT_4      55.037    1.2261e+07      4.489e-06          1
+    COOKIE_1       -0.41861       0.46411       -0.90196    0.36708
+    BROWSER_1        31.439    1.5415e+07     2.0394e-06          1
+    BROWSER_2        31.191    1.5415e+07     2.0234e-06          1
+    BROWSER_3        29.761    1.5415e+07     1.9306e-06          1
+    BROWSER_4       -65.281    3.3389e+07    -1.9552e-06          1
+    BROWSER_5        29.701    1.5415e+07     1.9267e-06          1
+    BROWSER_6        30.066    1.5415e+07     1.9504e-06          1
+    BROWSER_7       -51.769    2.6311e+07    -1.9676e-06          1
+
+
+577 observations, 556 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 47.3, p-value = 0.000535
+
+RegLog28J2 = 
+
+
+Generalized Linear regression model:
+    logit(LREGRA) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER + MSTATUS
+    Distribution = Binomial
+
+Estimated Coefficients:
+                    Estimate          SE           tStat       pValue
+                   ___________    __________    ___________    ______
+
+    (Intercept)        -102.57    2.1871e+07    -4.6896e-06    1     
+    METODO_1        2.0874e-12    1.5179e+07     1.3752e-19    1     
+    METODO_2        5.8717e-12    1.1441e+07     5.1319e-19    1     
+    URI_1          -8.7356e-13    1.1797e+07    -7.4052e-20    1     
+    URI_2          -2.9904e-12    1.0711e+07    -2.7918e-19    1     
+    URI_3          -4.6961e-13    1.0994e+07    -4.2716e-20    1     
+    URL_1          -6.3186e-14    6.9578e+06    -9.0814e-21    1     
+    URL_3           4.3438e-12    2.4993e+07      1.738e-19    1     
+    URL_4           3.6266e-13    1.0411e+07     3.4833e-20    1     
+    USERAGENT_1    -1.2542e-13    1.5492e+07    -8.0954e-21    1     
+    USERAGENT_2    -5.6795e-13    1.5717e+07    -3.6136e-20    1     
+    USERAGENT_3    -9.8107e-13    1.4858e+07     -6.603e-20    1     
+    USERAGENT_4    -1.1903e-12    1.4562e+07     -8.174e-20    1     
+    COOKIE_1        4.7362e-13    6.4602e+06     7.3314e-20    1     
+    BROWSER_1        3.301e-12    3.6151e+07     9.1311e-20    1     
+    BROWSER_2      -3.5779e-13     2.315e+07    -1.5455e-20    1     
+    BROWSER_3       6.1136e-13     2.293e+07     2.6662e-20    1     
+    BROWSER_4       8.9691e-13    3.7033e+07     2.4219e-20    1     
+    BROWSER_5       5.2386e-13    2.2629e+07      2.315e-20    1     
+    BROWSER_6       5.8235e-13     2.248e+07     2.5905e-20    1     
+    BROWSER_7      -5.5683e-14    3.1406e+07     -1.773e-21    1     
+    MSTATUS         1.9131e-15    1.8822e+05     1.0164e-20    1     
+
+
+577 observations, 555 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 0, p-value = 1
+
+RegLog28K1 = 
+
+
+Generalized Linear regression model:
+    logit(LSTATUS) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER
+    Distribution = Binomial
+
+Estimated Coefficients:
+                   Estimate        SE           tStat       pValue 
+                   ________    __________    ___________    _______
+
+    (Intercept)     -112.59    1.6735e+07    -6.7275e-06    0.99999
+    METODO_1        -94.338    1.5125e+07    -6.2374e-06          1
+    METODO_2         -0.301           0.8       -0.37625    0.70673
+    URI_1          -0.40989       0.80426       -0.50965     0.6103
+    URI_2          -0.13663       0.70278       -0.19442    0.84585
+    URI_3          -0.35117       0.74082       -0.47403    0.63548
+    URL_1          -0.13839       0.48524       -0.28519     0.7755
+    URL_3            -92.93    2.2433e+07    -4.1426e-06          1
+    URL_4           -94.477    9.3035e+06    -1.0155e-05    0.99999
+    USERAGENT_1       77.02    1.1502e+07      6.696e-06    0.99999
+    USERAGENT_2      76.518    1.1502e+07     6.6524e-06    0.99999
+    USERAGENT_3      77.705    1.1502e+07     6.7556e-06    0.99999
+    USERAGENT_4      77.549    1.1502e+07      6.742e-06    0.99999
+    COOKIE_1       -0.22371       0.48239       -0.46375    0.64283
+    BROWSER_1       -67.223    3.2889e+07    -2.0439e-06          1
+    BROWSER_2        32.474    1.8196e+07     1.7847e-06          1
+    BROWSER_3        32.723    1.8196e+07     1.7984e-06          1
+    BROWSER_4        -45.21    3.4775e+07    -1.3001e-06          1
+    BROWSER_5        32.815    1.8196e+07     1.8034e-06          1
+    BROWSER_6        32.935    1.8196e+07       1.81e-06          1
+    BROWSER_7       -66.831    2.7955e+07    -2.3907e-06          1
+
+
+596 observations, 575 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 18, p-value = 0.588
+
+RegLog28K2 = 
+
+
+Generalized Linear regression model:
+    logit(LREGRA) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER + MSTATUS
+    Distribution = Binomial
+
+Estimated Coefficients:
+                    Estimate          SE           tStat       pValue
+                   ___________    __________    ___________    ______
+
+    (Intercept)        -102.57    2.0532e+07    -4.9954e-06    1     
+    METODO_1        5.7475e-12    1.5939e+07     3.6059e-19    1     
+    METODO_2       -3.7153e-13    1.0472e+07    -3.5479e-20    1     
+    URI_1          -2.7465e-12    1.1887e+07    -2.3105e-19    1     
+    URI_2          -9.6106e-13    1.0884e+07    -8.8301e-20    1     
+    URI_3          -3.4843e-12    1.1135e+07    -3.1291e-19    1     
+    URL_1           8.9876e-15    6.8252e+06     1.3168e-21    1     
+    URL_3           1.0189e-12    2.3451e+07     4.3447e-20    1     
+    URL_4           8.1236e-14    1.0801e+07     7.5211e-21    1     
+    USERAGENT_1     7.9765e-13    1.3728e+07     5.8106e-20    1     
+    USERAGENT_2     2.7439e-12    1.4137e+07     1.9409e-19    1     
+    USERAGENT_3     4.4986e-13    1.3407e+07     3.3554e-20    1     
+    USERAGENT_4     3.7765e-14    1.2917e+07     2.9237e-21    1     
+    COOKIE_1       -4.1423e-14    6.2228e+06    -6.6567e-21    1     
+    BROWSER_1      -5.6256e-13    3.3929e+07     -1.658e-20    1     
+    BROWSER_2       -1.136e-12    1.9593e+07    -5.7979e-20    1     
+    BROWSER_3       2.4083e-13    1.9824e+07     1.2148e-20    1     
+    BROWSER_4       -7.993e-13    3.5239e+07    -2.2683e-20    1     
+    BROWSER_5       1.8593e-13    1.9294e+07     9.6366e-21    1     
+    BROWSER_6      -3.9133e-13    1.8876e+07    -2.0732e-20    1     
+    BROWSER_7      -8.4796e-15     2.874e+07    -2.9504e-22    1     
+    MSTATUS        -1.7103e-15    1.9117e+05    -8.9468e-21    1     
+
+
+596 observations, 574 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 0, p-value = 1
+
+RegLog28L1 = 
+
+
+Generalized Linear regression model:
+    logit(LSTATUS) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER
+    Distribution = Binomial
+
+Estimated Coefficients:
+                   Estimate         SE           tStat       pValue 
+                   _________    __________    ___________    _______
+
+    (Intercept)      -111.58    1.6835e+07    -6.6279e-06    0.99999
+    METODO_1         -96.001    1.6786e+07    -5.7192e-06          1
+    METODO_2         0.21962       0.81481        0.26953    0.78752
+    METODO_5         -101.12    6.7109e+07    -1.5068e-06          1
+    URI_1           -0.43745       0.73076       -0.59863    0.54942
+    URI_2          -0.019158       0.63879      -0.029992    0.97607
+    URI_3           -0.42597       0.67803       -0.62824    0.52985
+    URL_1            0.86171       0.51104         1.6862    0.09176
+    URL_3            -98.649    2.3727e+07    -4.1577e-06          1
+    URL_4            -95.563    8.5558e+06    -1.1169e-05    0.99999
+    USERAGENT_1        75.39    1.2222e+07     6.1682e-06          1
+    USERAGENT_2       75.229    1.2222e+07      6.155e-06          1
+    USERAGENT_3       75.781    1.2222e+07     6.2002e-06          1
+    USERAGENT_4        75.87    1.2222e+07     6.2074e-06          1
+    COOKIE_1         0.17341       0.47444        0.36551    0.71473
+    BROWSER_1        -67.416    4.3016e+07    -1.5672e-06          1
+    BROWSER_2         32.609    1.8686e+07     1.7451e-06          1
+    BROWSER_3         32.806    1.8686e+07     1.7556e-06          1
+    BROWSER_4         8.5782    6.9188e+07     1.2398e-07          1
+    BROWSER_5          33.49    1.8686e+07     1.7923e-06          1
+    BROWSER_6         32.278    1.8686e+07     1.7274e-06          1
+    BROWSER_7         -67.57    3.0201e+07    -2.2373e-06          1
+
+
+556 observations, 534 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 28.8, p-value = 0.118
+
+RegLog28L2 = 
+
+
+Generalized Linear regression model:
+    logit(LREGRA) ~ 1 + METODO + URI + URL + USERAGENT + COOKIE + BROWSER + MSTATUS
+    Distribution = Binomial
+
+Estimated Coefficients:
+                    Estimate          SE           tStat       pValue
+                   ___________    __________    ___________    ______
+
+    (Intercept)        -102.57    2.1262e+07     -4.824e-06    1     
+    METODO_1       -1.9667e-12    1.7408e+07    -1.1298e-19    1     
+    METODO_2         3.432e-12    1.1773e+07     2.9152e-19    1     
+    METODO_5       -1.6529e-11    6.8139e+07    -2.4258e-19    1     
+    URI_1           -1.655e-12    1.1824e+07    -1.3996e-19    1     
+    URI_2          -2.8252e-13    1.0741e+07    -2.6304e-20    1     
+    URI_3            6.479e-13    1.0917e+07     5.9348e-20    1     
+    URL_1           8.2645e-13     7.257e+06     1.1388e-19    1     
+    URL_3           1.6294e-12    2.4885e+07     6.5478e-20    1     
+    URL_4           1.2575e-12    1.0196e+07     1.2333e-19    1     
+    USERAGENT_1    -1.0319e-12    1.4599e+07    -7.0684e-20    1     
+    USERAGENT_2    -2.2154e-13    1.5226e+07     -1.455e-20    1     
+    USERAGENT_3    -3.6259e-13    1.4235e+07    -2.5472e-20    1     
+    USERAGENT_4      -1.98e-13    1.3834e+07    -1.4312e-20    1     
+    COOKIE_1       -1.7731e-13    6.4697e+06    -2.7407e-20    1     
+    BROWSER_1      -4.7022e-12     4.448e+07    -1.0571e-19    1     
+    BROWSER_2      -1.4958e-13    2.1435e+07    -6.9784e-21    1     
+    BROWSER_3      -3.4707e-13     2.137e+07    -1.6241e-20    1     
+    BROWSER_4       3.8677e-13    6.9658e+07     5.5525e-21    1     
+    BROWSER_5      -5.6433e-13    2.1133e+07    -2.6704e-20    1     
+    BROWSER_6      -8.8059e-13    2.0537e+07    -4.2878e-20    1     
+    BROWSER_7      -9.3071e-13    3.1827e+07    -2.9243e-20    1     
+    MSTATUS        -1.0803e-14    1.7033e+05    -6.3422e-20    1     
+
+
+556 observations, 533 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 0, p-value = 1

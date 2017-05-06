@@ -1,0 +1,609 @@
+RegLog05A1 = 
+                   Estimate        SE           tStat       pValue 
+                   ________    __________    ___________    _______
+    (Intercept)     -135.72    1.8025e+07      -7.53e-06    0.99999
+    METODO_2        0.50472        1.1853        0.42583    0.67023
+    URI_1           -1.1256       0.91155        -1.2348    0.21691
+    URI_2          -0.28638       0.68005       -0.42112    0.67367
+    URI_3           -1.1684       0.81431        -1.4349    0.15133
+    URL_1            0.7965       0.72952         1.0918    0.27491
+    URL_4          -0.49042        1.2015       -0.40818    0.68314
+    COOKIE_1       -0.93416       0.69564        -1.3429    0.17931
+
+
+548 observations, 527 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 23, p-value = 0.29
+
+RegLog05B1 = 
+                   Estimate        SE           tStat       pValue 
+                   ________    __________    ___________    _______
+    (Intercept)     -110.06    2.0945e+07    -5.2547e-06          1
+    METODO_2       -0.32064         1.101       -0.29122    0.77088
+    URI_1           -1.6569        1.2129        -1.3661    0.17191
+    URI_2          -0.39364       0.76726       -0.51305    0.60792
+    URI_3          -0.23976        0.7517       -0.31896    0.74976
+    URL_1           0.43044        0.5884        0.73154    0.46445
+    COOKIE_1       -0.10504       0.58875       -0.17841     0.8584
+    
+
+467 observations, 445 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 25.3, p-value = 0.233
+
+
+RegLog05C1 = 
+                   Estimate        SE           tStat       pValue 
+                   ________    __________    ___________    _______
+    (Intercept)     -1.1943        1.4005       -0.85279    0.39378
+    METODO_2         1.0581       0.88604         1.1942    0.23239
+    URI_1            -0.225       0.90443       -0.24877    0.80354
+    URI_2          -0.46505       0.80173       -0.58006    0.56187
+    URI_3          -0.70716       0.81626       -0.86634     0.3863
+    URL_1           0.02859       0.63105       0.045306    0.96386
+    COOKIE_1       -0.11279        0.6509       -0.17328    0.86243
+    
+
+353 observations, 332 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 14.1, p-value = 0.827
+
+RegLog05D1 = 
+                   Estimate        SE           tStat       pValue 
+                   ________    __________    ___________    _______
+    (Intercept)    -0.70685        1.4038       -0.50351     0.6146
+    METODO_2        0.27682        1.1772        0.23516    0.81408
+    URI_1           -1.5453        1.2197        -1.2669    0.20519
+    URI_2          -0.65131       0.78069       -0.83427    0.40413
+    URI_3          -0.79485       0.79266        -1.0028    0.31597
+    URL_1            0.0386       0.70554        0.05471    0.95637
+    COOKIE_1       -0.82324       0.74546        -1.1043    0.26945
+
+
+321 observations, 301 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 26.8, p-value = 0.11
+
+RegLog05E1 = 
+                   Estimate        SE           tStat       pValue 
+                   ________    __________    ___________    _______
+    (Intercept)     -95.325    1.6764e+07    -5.6863e-06          1
+    METODO_1        0.50205        1.2034         0.4172    0.67653
+    METODO_2        0.32515        1.1593        0.28047    0.77912
+    URI_2          0.080996       0.75265        0.10761     0.9143
+    URI_3          -0.35467       0.80586       -0.44011    0.65985
+    URL_1           0.86849       0.81942         1.0599     0.2892
+    COOKIE_1        -1.1325       0.81442        -1.3905    0.16437
+
+
+435 observations, 414 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 28.5, p-value = 0.0977
+
+RegLog05F1 = 
+                   Estimate        SE           tStat        pValue 
+                   ________    __________    ___________    ________
+    (Intercept)     -98.882    1.4939e+07     -6.619e-06     0.99999
+    METODO_1         0.6351         1.249        0.50848     0.61111
+    METODO_2         0.7475        1.1987        0.62359      0.5329
+    URI_1           -2.1439        1.1807        -1.8158    0.069398
+    URI_2          -0.24177       0.70416       -0.34334     0.73134
+    URI_3          -0.92869        0.7836        -1.1852     0.23595
+    URL_1            1.5729       0.79031         1.9903     0.04656
+    COOKIE_1       -0.59907       0.64094       -0.93468     0.34995
+
+
+529 observations, 508 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 41.9, p-value = 0.00286
+
+RegLog05G1 = 
+                   Estimate        SE           tStat        pValue 
+                   ________    __________    ___________    ________
+    (Intercept)      -96.72    1.4328e+07    -6.7503e-06     0.99999
+    METODO_2       0.042856       0.80254         0.0534     0.95741
+    URI_1          -0.84969       0.86939       -0.97734      0.3284
+    URI_2           0.38934       0.69934        0.55672     0.57772
+    URI_3           0.10561       0.72779        0.14512     0.88462
+    URL_1              1.24       0.50462         2.4572    0.014002
+    COOKIE_1        0.29585       0.44974        0.65783     0.51065
+
+576 observations, 554 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 35.2, p-value = 0.0268
+
+RegLog05H1 = 
+                   Estimate        SE           tStat        pValue 
+                   ________    __________    ___________    ________
+    (Intercept)     -1.5004        1.0731        -1.3981     0.16208
+    METODO_1        0.32225       0.84475        0.38147     0.70285
+    METODO_2        0.30631       0.82317        0.37211     0.70981
+    URI_1          -0.28177       0.70882       -0.39752     0.69099
+    URI_2          -0.44066       0.66161       -0.66604     0.50538
+    URI_3          -0.47982       0.67322       -0.71273     0.47602
+    URL_1           0.50916       0.50221         1.0138     0.31066
+    USERAGENT_1      1.1137        1.3985         0.7964      0.4258
+    USERAGENT_3      1.5988        1.3604         1.1753     0.23989
+    USERAGENT_4      1.5694         1.372         1.1439     0.25267
+    COOKIE_1       -0.45118       0.49543        -0.9107     0.36246
+    BROWSER_2       -2.3177        1.4523        -1.5958     0.11052
+    BROWSER_3        -1.887         1.449        -1.3023     0.19282
+    BROWSER_5       -2.2957        1.4279        -1.6077     0.10789
+    BROWSER_6       -3.6881        1.5423        -2.3913    0.016791
+
+
+562 observations, 541 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 33.7, p-value = 0.0284
+
+RegLog05I1 = 
+                   Estimate         SE           tStat       pValue 
+                   _________    __________    ___________    _______
+    (Intercept)      -115.93    1.7374e+07    -6.6725e-06    0.99999
+    METODO_1         0.40844        1.1086        0.36842    0.71256
+    METODO_2        -0.14284        0.8005       -0.17844    0.85838
+    URI_1           -0.50451       0.73282       -0.68846    0.49117
+    URI_2           -0.45998       0.63788       -0.72111    0.47084
+    URI_3           -0.63563        0.6773       -0.93848      0.348
+    URL_1          -0.025075       0.48185      -0.052038     0.9585
+    COOKIE_1        0.028853        0.4789       0.060249    0.95196
+
+
+556 observations, 535 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 21.8, p-value = 0.353
+
+RegLog05J1 = 
+                   Estimate        SE           tStat       pValue 
+                   ________    __________    ___________    _______
+    (Intercept)     -87.874    1.5496e+07    -5.6706e-06          1
+    METODO_1       -0.20666        1.0858       -0.19032    0.84906
+    METODO_2        0.19055       0.68499        0.27818    0.78088
+    URI_1           0.59068       0.85976        0.68703    0.49206
+    URI_2           0.70104       0.80275        0.87331     0.3825
+    URI_3           0.34729       0.82465        0.42114    0.67366
+    URL_1          -0.17934        0.4705       -0.38116    0.70308
+    COOKIE_1       -0.41861       0.46411       -0.90196    0.36708
+
+
+577 observations, 556 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 47.3, p-value = 0.000535
+
+RegLog05K1 = 
+                   Estimate        SE           tStat       pValue 
+                   ________    __________    ___________    _______
+    (Intercept)     -112.59    1.6735e+07    -6.7275e-06    0.99999
+    METODO_2         -0.301           0.8       -0.37625    0.70673
+    URI_1          -0.40989       0.80426       -0.50965     0.6103
+    URI_2          -0.13663       0.70278       -0.19442    0.84585
+    URI_3          -0.35117       0.74082       -0.47403    0.63548
+    URL_1          -0.13839       0.48524       -0.28519     0.7755
+    COOKIE_1       -0.22371       0.48239       -0.46375    0.64283
+
+
+596 observations, 575 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 18, p-value = 0.588
+
+RegLog05L1 = 
+                   Estimate         SE           tStat       pValue 
+                   _________    __________    ___________    _______
+    (Intercept)      -111.58    1.6835e+07    -6.6279e-06    0.99999
+    METODO_2         0.21962       0.81481        0.26953    0.78752
+    URI_1           -0.43745       0.73076       -0.59863    0.54942
+    URI_2          -0.019158       0.63879      -0.029992    0.97607
+    URI_3           -0.42597       0.67803       -0.62824    0.52985
+    URL_1            0.86171       0.51104         1.6862    0.09176
+    COOKIE_1         0.17341       0.47444        0.36551    0.71473
+
+
+556 observations, 534 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 28.8, p-value = 0.118
+
+RegLog21A1 = 
+                   Estimate        SE           tStat       pValue 
+                   ________    __________    ___________    _______
+    (Intercept)     -135.72    1.8025e+07      -7.53e-06    0.99999
+    METODO_2        0.50472        1.1853        0.42583    0.67023
+    URI_1           -1.1256       0.91155        -1.2348    0.21691
+    URI_2          -0.28638       0.68005       -0.42112    0.67367
+    URI_3           -1.1684       0.81431        -1.4349    0.15133
+    URL_1            0.7965       0.72952         1.0918    0.27491
+    URL_4          -0.49042        1.2015       -0.40818    0.68314
+    COOKIE_1       -0.93416       0.69564        -1.3429    0.17931
+
+
+548 observations, 527 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 23, p-value = 0.29
+
+RegLog21B1 = 
+                   Estimate        SE           tStat       pValue 
+                   ________    __________    ___________    _______
+    (Intercept)     -110.06    2.0945e+07    -5.2547e-06          1
+    METODO_2       -0.32064         1.101       -0.29122    0.77088
+    URI_1           -1.6569        1.2129        -1.3661    0.17191
+    URI_2          -0.39364       0.76726       -0.51305    0.60792
+    URI_3          -0.23976        0.7517       -0.31896    0.74976
+    URL_1           0.43044        0.5884        0.73154    0.46445
+    COOKIE_1       -0.10504       0.58875       -0.17841     0.8584
+
+
+467 observations, 445 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 25.3, p-value = 0.233
+
+RegLog21C1 = 
+                   Estimate        SE           tStat       pValue 
+                   ________    __________    ___________    _______
+    (Intercept)     -1.1943        1.4005       -0.85279    0.39378
+    METODO_2         1.0581       0.88604         1.1942    0.23239
+    URI_1            -0.225       0.90443       -0.24877    0.80354
+    URI_2          -0.46505       0.80173       -0.58006    0.56187
+    URI_3          -0.70716       0.81626       -0.86634     0.3863
+    URL_1           0.02859       0.63105       0.045306    0.96386
+    COOKIE_1       -0.11279        0.6509       -0.17328    0.86243
+
+353 observations, 332 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 14.1, p-value = 0.827
+
+RegLog21D1 = 
+                   Estimate        SE           tStat       pValue 
+                   ________    __________    ___________    _______
+    (Intercept)    -0.70685        1.4038       -0.50351     0.6146
+    METODO_2        0.27682        1.1772        0.23516    0.81408
+    URI_1           -1.5453        1.2197        -1.2669    0.20519
+    URI_2          -0.65131       0.78069       -0.83427    0.40413
+    URI_3          -0.79485       0.79266        -1.0028    0.31597
+    URL_1            0.0386       0.70554        0.05471    0.95637
+    COOKIE_1       -0.82324       0.74546        -1.1043    0.26945
+
+321 observations, 301 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 26.8, p-value = 0.11
+
+RegLog21E1 = 
+                   Estimate        SE           tStat       pValue 
+                   ________    __________    ___________    _______
+    (Intercept)     -95.325    1.6764e+07    -5.6863e-06          1
+    METODO_1        0.50205        1.2034         0.4172    0.67653
+    METODO_2        0.32515        1.1593        0.28047    0.77912
+    URI_2          0.080996       0.75265        0.10761     0.9143
+    URI_3          -0.35467       0.80586       -0.44011    0.65985
+    URL_1           0.86849       0.81942         1.0599     0.2892
+    COOKIE_1        -1.1325       0.81442        -1.3905    0.16437
+
+435 observations, 414 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 28.5, p-value = 0.0977
+
+RegLog21F1 =                    Estimate        SE           tStat        pValue 
+                   ________    __________    ___________    ________
+    (Intercept)     -98.882    1.4939e+07     -6.619e-06     0.99999
+    METODO_1         0.6351         1.249        0.50848     0.61111
+    METODO_2         0.7475        1.1987        0.62359      0.5329
+    URI_1           -2.1439        1.1807        -1.8158    0.069398
+    URI_2          -0.24177       0.70416       -0.34334     0.73134
+    URI_3          -0.92869        0.7836        -1.1852     0.23595
+    URL_1            1.5729       0.79031         1.9903     0.04656
+    COOKIE_1       -0.59907       0.64094       -0.93468     0.34995
+
+
+529 observations, 508 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 41.9, p-value = 0.00286
+
+RegLog21G1 = 
+                   Estimate        SE           tStat        pValue 
+                   ________    __________    ___________    ________
+    (Intercept)      -96.72    1.4328e+07    -6.7503e-06     0.99999
+    METODO_2       0.042856       0.80254         0.0534     0.95741
+    URI_1          -0.84969       0.86939       -0.97734      0.3284
+    URI_2           0.38934       0.69934        0.55672     0.57772
+    URI_3           0.10561       0.72779        0.14512     0.88462
+    URL_1              1.24       0.50462         2.4572    0.014002
+    COOKIE_1        0.29585       0.44974        0.65783     0.51065
+
+
+576 observations, 554 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 35.2, p-value = 0.0268
+
+RegLog21H1 = 
+                   Estimate        SE           tStat        pValue 
+                   ________    __________    ___________    ________
+    (Intercept)     -1.5004        1.0731        -1.3981     0.16208
+    METODO_1        0.32225       0.84475        0.38147     0.70285
+    METODO_2        0.30631       0.82317        0.37211     0.70981
+    URI_1          -0.28177       0.70882       -0.39752     0.69099
+    URI_2          -0.44066       0.66161       -0.66604     0.50538
+    URI_3          -0.47982       0.67322       -0.71273     0.47602
+    URL_1           0.50916       0.50221         1.0138     0.31066
+    USERAGENT_1      1.1137        1.3985         0.7964      0.4258
+    USERAGENT_3      1.5988        1.3604         1.1753     0.23989
+    USERAGENT_4      1.5694         1.372         1.1439     0.25267
+    COOKIE_1       -0.45118       0.49543        -0.9107     0.36246
+    BROWSER_2       -2.3177        1.4523        -1.5958     0.11052
+    BROWSER_3        -1.887         1.449        -1.3023     0.19282
+    BROWSER_5       -2.2957        1.4279        -1.6077     0.10789
+    BROWSER_6       -3.6881        1.5423        -2.3913    0.016791
+
+
+562 observations, 541 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 33.7, p-value = 0.0284
+
+RegLog21I1 = 
+                   Estimate         SE           tStat       pValue 
+                   _________    __________    ___________    _______
+    (Intercept)      -115.93    1.7374e+07    -6.6725e-06    0.99999
+    METODO_1         0.40844        1.1086        0.36842    0.71256
+    METODO_2        -0.14284        0.8005       -0.17844    0.85838
+    URI_1           -0.50451       0.73282       -0.68846    0.49117
+    URI_2           -0.45998       0.63788       -0.72111    0.47084
+    URI_3           -0.63563        0.6773       -0.93848      0.348
+    URL_1          -0.025075       0.48185      -0.052038     0.9585
+    COOKIE_1        0.028853        0.4789       0.060249    0.95196
+
+
+556 observations, 535 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 21.8, p-value = 0.353
+
+RegLog21J1 = 
+                   Estimate        SE           tStat       pValue 
+                   ________    __________    ___________    _______
+    (Intercept)     -87.874    1.5496e+07    -5.6706e-06          1
+    METODO_1       -0.20666        1.0858       -0.19032    0.84906
+    METODO_2        0.19055       0.68499        0.27818    0.78088
+    URI_1           0.59068       0.85976        0.68703    0.49206
+    URI_2           0.70104       0.80275        0.87331     0.3825
+    URI_3           0.34729       0.82465        0.42114    0.67366
+    URL_1          -0.17934        0.4705       -0.38116    0.70308
+    COOKIE_1       -0.41861       0.46411       -0.90196    0.36708
+
+
+577 observations, 556 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 47.3, p-value = 0.000535
+
+RegLog21K1 = 
+                   Estimate        SE           tStat       pValue 
+                   ________    __________    ___________    _______
+    (Intercept)     -112.59    1.6735e+07    -6.7275e-06    0.99999
+    METODO_2         -0.301           0.8       -0.37625    0.70673
+    URI_1          -0.40989       0.80426       -0.50965     0.6103
+    URI_2          -0.13663       0.70278       -0.19442    0.84585
+    URI_3          -0.35117       0.74082       -0.47403    0.63548
+    URL_1          -0.13839       0.48524       -0.28519     0.7755
+    COOKIE_1       -0.22371       0.48239       -0.46375    0.64283
+
+
+596 observations, 575 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 18, p-value = 0.588
+
+RegLog21L1 = 
+                   Estimate         SE           tStat       pValue 
+                   _________    __________    ___________    _______
+    (Intercept)      -111.58    1.6835e+07    -6.6279e-06    0.99999
+    METODO_2         0.21962       0.81481        0.26953    0.78752
+    URI_1           -0.43745       0.73076       -0.59863    0.54942
+    URI_2          -0.019158       0.63879      -0.029992    0.97607
+    URI_3           -0.42597       0.67803       -0.62824    0.52985
+    URL_1            0.86171       0.51104         1.6862    0.09176
+    COOKIE_1         0.17341       0.47444        0.36551    0.71473
+
+
+556 observations, 534 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 28.8, p-value = 0.118
+
+RegLog28A1 = 
+                   Estimate        SE           tStat       pValue 
+                   ________    __________    ___________    _______
+    (Intercept)     -135.72    1.8025e+07      -7.53e-06    0.99999
+    METODO_2        0.50472        1.1853        0.42583    0.67023
+    URI_1           -1.1256       0.91155        -1.2348    0.21691
+    URI_2          -0.28638       0.68005       -0.42112    0.67367
+    URI_3           -1.1684       0.81431        -1.4349    0.15133
+    URL_1            0.7965       0.72952         1.0918    0.27491
+    URL_4          -0.49042        1.2015       -0.40818    0.68314
+    COOKIE_1       -0.93416       0.69564        -1.3429    0.17931
+
+
+548 observations, 527 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 23, p-value = 0.29
+
+RegLog28B1 = 
+                   Estimate        SE           tStat       pValue 
+                   ________    __________    ___________    _______
+    (Intercept)     -110.06    2.0945e+07    -5.2547e-06          1
+    METODO_2       -0.32064         1.101       -0.29122    0.77088
+    URI_1           -1.6569        1.2129        -1.3661    0.17191
+    URI_2          -0.39364       0.76726       -0.51305    0.60792
+    URI_3          -0.23976        0.7517       -0.31896    0.74976
+    URL_1           0.43044        0.5884        0.73154    0.46445
+    COOKIE_1       -0.10504       0.58875       -0.17841     0.8584
+
+
+467 observations, 445 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 25.3, p-value = 0.233
+
+RegLog28C1 = 
+                   Estimate        SE           tStat       pValue 
+                   ________    __________    ___________    _______
+    (Intercept)     -1.1943        1.4005       -0.85279    0.39378
+    METODO_2         1.0581       0.88604         1.1942    0.23239
+    URI_1            -0.225       0.90443       -0.24877    0.80354
+    URI_2          -0.46505       0.80173       -0.58006    0.56187
+    URI_3          -0.70716       0.81626       -0.86634     0.3863
+    URL_1           0.02859       0.63105       0.045306    0.96386
+    COOKIE_1       -0.11279        0.6509       -0.17328    0.86243
+
+
+353 observations, 332 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 14.1, p-value = 0.827
+
+RegLog28D1 = 
+                   Estimate        SE           tStat       pValue 
+                   ________    __________    ___________    _______
+    (Intercept)    -0.70685        1.4038       -0.50351     0.6146
+    METODO_2        0.27682        1.1772        0.23516    0.81408
+    URI_1           -1.5453        1.2197        -1.2669    0.20519
+    URI_2          -0.65131       0.78069       -0.83427    0.40413
+    URI_3          -0.79485       0.79266        -1.0028    0.31597
+    URL_1            0.0386       0.70554        0.05471    0.95637
+    COOKIE_1       -0.82324       0.74546        -1.1043    0.26945
+
+
+321 observations, 301 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 26.8, p-value = 0.11
+
+RegLog28E1 = 
+                   Estimate        SE           tStat       pValue 
+                   ________    __________    ___________    _______
+    (Intercept)     -95.325    1.6764e+07    -5.6863e-06          1
+    METODO_1        0.50205        1.2034         0.4172    0.67653
+    METODO_2        0.32515        1.1593        0.28047    0.77912
+    URI_1           -98.142    8.4209e+06    -1.1655e-05    0.99999
+    URI_2          0.080996       0.75265        0.10761     0.9143
+    URI_3          -0.35467       0.80586       -0.44011    0.65985
+    URL_1           0.86849       0.81942         1.0599     0.2892
+    COOKIE_1        -1.1325       0.81442        -1.3905    0.16437
+
+
+435 observations, 414 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 28.5, p-value = 0.0977
+
+RegLog28F1 = 
+                   Estimate        SE           tStat        pValue 
+                   ________    __________    ___________    ________
+    (Intercept)     -98.882    1.4939e+07     -6.619e-06     0.99999
+    METODO_1         0.6351         1.249        0.50848     0.61111
+    METODO_2         0.7475        1.1987        0.62359      0.5329
+    URI_1           -2.1439        1.1807        -1.8158    0.069398
+    URI_2          -0.24177       0.70416       -0.34334     0.73134
+    URI_3          -0.92869        0.7836        -1.1852     0.23595
+    URL_1            1.5729       0.79031         1.9903     0.04656
+    COOKIE_1       -0.59907       0.64094       -0.93468     0.34995
+
+
+529 observations, 508 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 41.9, p-value = 0.00286
+
+RegLog28G1 = 
+                   Estimate        SE           tStat        pValue 
+                   ________    __________    ___________    ________
+    (Intercept)      -96.72    1.4328e+07    -6.7503e-06     0.99999
+    METODO_2       0.042856       0.80254         0.0534     0.95741
+    URI_1          -0.84969       0.86939       -0.97734      0.3284
+    URI_2           0.38934       0.69934        0.55672     0.57772
+    URI_3           0.10561       0.72779        0.14512     0.88462
+    URL_1              1.24       0.50462         2.4572    0.014002
+    COOKIE_1        0.29585       0.44974        0.65783     0.51065
+
+
+576 observations, 554 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 35.2, p-value = 0.0268
+
+RegLog28H1 = 
+                   Estimate        SE           tStat        pValue 
+                   ________    __________    ___________    ________
+    (Intercept)     -1.5004        1.0731        -1.3981     0.16208
+    METODO_1        0.32225       0.84475        0.38147     0.70285
+    METODO_2        0.30631       0.82317        0.37211     0.70981
+    URI_1          -0.28177       0.70882       -0.39752     0.69099
+    URI_2          -0.44066       0.66161       -0.66604     0.50538
+    URI_3          -0.47982       0.67322       -0.71273     0.47602
+    URL_1           0.50916       0.50221         1.0138     0.31066
+    USERAGENT_1      1.1137        1.3985         0.7964      0.4258
+    USERAGENT_3      1.5988        1.3604         1.1753     0.23989
+    USERAGENT_4      1.5694         1.372         1.1439     0.25267
+    COOKIE_1       -0.45118       0.49543        -0.9107     0.36246
+    BROWSER_2       -2.3177        1.4523        -1.5958     0.11052
+    BROWSER_3        -1.887         1.449        -1.3023     0.19282
+    BROWSER_5       -2.2957        1.4279        -1.6077     0.10789
+    BROWSER_6       -3.6881        1.5423        -2.3913    0.016791
+
+
+562 observations, 541 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 33.7, p-value = 0.0284
+
+RegLog28I1 = 
+                   Estimate         SE           tStat       pValue 
+                   _________    __________    ___________    _______
+
+    (Intercept)      -115.93    1.7374e+07    -6.6725e-06    0.99999
+    METODO_1         0.40844        1.1086        0.36842    0.71256
+    METODO_2        -0.14284        0.8005       -0.17844    0.85838
+    URI_1           -0.50451       0.73282       -0.68846    0.49117
+    URI_2           -0.45998       0.63788       -0.72111    0.47084
+    URI_3           -0.63563        0.6773       -0.93848      0.348
+    URL_1          -0.025075       0.48185      -0.052038     0.9585
+    COOKIE_1        0.028853        0.4789       0.060249    0.95196
+
+556 observations, 535 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 21.8, p-value = 0.353
+
+RegLog28J1 = 
+                   Estimate        SE           tStat       pValue 
+                   ________    __________    ___________    _______
+
+    (Intercept)     -87.874    1.5496e+07    -5.6706e-06          1
+    METODO_1       -0.20666        1.0858       -0.19032    0.84906
+    METODO_2        0.19055       0.68499        0.27818    0.78088
+    URI_1           0.59068       0.85976        0.68703    0.49206
+    URI_2           0.70104       0.80275        0.87331     0.3825
+    URI_3           0.34729       0.82465        0.42114    0.67366
+    URL_1          -0.17934        0.4705       -0.38116    0.70308
+    COOKIE_1       -0.41861       0.46411       -0.90196    0.36708
+
+
+577 observations, 556 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 47.3, p-value = 0.000535
+
+RegLog28K1 = 
+                   Estimate        SE           tStat       pValue 
+                   ________    __________    ___________    _______
+    (Intercept)     -112.59    1.6735e+07    -6.7275e-06    0.99999
+    METODO_2         -0.301           0.8       -0.37625    0.70673
+    URI_1          -0.40989       0.80426       -0.50965     0.6103
+    URI_2          -0.13663       0.70278       -0.19442    0.84585
+    URI_3          -0.35117       0.74082       -0.47403    0.63548
+    URL_1          -0.13839       0.48524       -0.28519     0.7755
+    COOKIE_1       -0.22371       0.48239       -0.46375    0.64283
+
+
+596 observations, 575 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 18, p-value = 0.588
+
+RegLog28L1 = 
+                   Estimate         SE           tStat       pValue 
+                   _________    __________    ___________    _______
+    (Intercept)      -111.58    1.6835e+07    -6.6279e-06    0.99999
+    METODO_2         0.21962       0.81481        0.26953    0.78752
+    URI_1           -0.43745       0.73076       -0.59863    0.54942
+    URI_2          -0.019158       0.63879      -0.029992    0.97607
+    URI_3           -0.42597       0.67803       -0.62824    0.52985
+    URL_1            0.86171       0.51104         1.6862    0.09176
+    COOKIE_1         0.17341       0.47444        0.36551    0.71473
+
+
+556 observations, 534 error degrees of freedom
+Dispersion: 1
+Chi^2-statistic vs. constant model: 28.8, p-value = 0.118
